@@ -1,20 +1,17 @@
 boiler_automation:
+
   automation:
 
-    # --- Turn ON boiler when any thermostat requests heat ---
-    - alias: Boiler ON when heating required
+    # --- Turn ON boiler when heating demand appears ---
+    - alias: Boiler ON
       trigger:
         - platform: state
-          entity_id:
-            - climate.bedroom_radiator_thermostat
-            - climate.child_radiator_thermostat
-            - climate.living_room_radiator_1_thermostat
-            - climate.living_room_radiator_2_thermostat
-          to: "heating"
+          entity_id: binary_sensor.heating_demand
+          to: 'on'
       condition:
         - condition: state
           entity_id: input_boolean.boiler_locked
-          state: "off"
+          state: 'off'
       action:
         - service: switch.turn_on
           target:
@@ -26,32 +23,17 @@ boiler_automation:
           target:
             entity_id: timer.boiler_min_on
 
-    # --- Turn OFF boiler when no thermostats need heat ---
-    - alias: Boiler OFF when no heating required
+    # --- Turn OFF boiler after min-on if no heating demand ---
+    - alias: Boiler OFF after min-on
       trigger:
-        - platform: state
-          entity_id:
-            - climate.bedroom_radiator_thermostat
-            - climate.child_radiator_thermostat
-            - climate.living_room_radiator_1_thermostat
-            - climate.living_room_radiator_2_thermostat
-          to: "idle"
+        - platform: event
+          event_type: timer.finished
+          event_data:
+            entity_id: timer.boiler_min_on
       condition:
         - condition: state
-          entity_id: timer.boiler_min_on
-          state: "idle"  # Wait until min ON period passed
-        - condition: state
-          entity_id: climate.bedroom_radiator_thermostat
-          state: "idle"
-        - condition: state
-          entity_id: climate.child_radiator_thermostat
-          state: "idle"
-        - condition: state
-          entity_id: climate.living_room_radiator_1_thermostat
-          state: "idle"
-        - condition: state
-          entity_id: climate.living_room_radiator_2_thermostat
-          state: "idle"
+          entity_id: binary_sensor.heating_demand
+          state: 'off'
       action:
         - service: switch.turn_off
           target:
@@ -59,19 +41,17 @@ boiler_automation:
         - service: timer.start
           target:
             entity_id: timer.boiler_min_off
-        - service: input_boolean.turn_on
+        - service: input_boolean.turn_off
           target:
             entity_id: input_boolean.boiler_locked
 
-    # --- Unlock boiler after ON or OFF timer expires ---
-    - alias: Boiler Unlock after min cycle
+    # --- Unlock boiler after min-off ---
+    - alias: Unlock Boiler After Min Off
       trigger:
         - platform: event
           event_type: timer.finished
           event_data:
-            entity_id:
-              - timer.boiler_min_on
-              - timer.boiler_min_off
+            entity_id: timer.boiler_min_off
       action:
         - service: input_boolean.turn_off
           target:

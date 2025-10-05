@@ -147,6 +147,83 @@
             "should_expose": false
           }
         }
+      },
+      "button.unnamed_p300_smart_plug_3_restart": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "button.unnamed_p300_smart_plug_2_restart": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "button.unnamed_p300_smart_plug_1_restart": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.unnamed_p300_smart_plug_3_on_since": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.unnamed_p300_smart_plug_2_on_since": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.unnamed_p300_smart_plug_1_on_since": {
+        "assistants": {
+          "cloud.alexa": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.boiler_on_when_heating_required": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.boiler_off_when_no_heating_required": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.boiler_unlock_after_min_cycle": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.boiler_on": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "automation.boiler_off_after_min_on": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
       }
     }
   }

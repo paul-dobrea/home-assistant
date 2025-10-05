@@ -1,4 +1,4 @@
-2025-10-04 23:12:02.768 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_on (c:01K6RCG07N0KW5NHJCRM4XPH9S): entity_id=['switch.bedroom_radiator_switch']>
+2025-10-05 11:39:58.389 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_on (c:01K6SRBEM9NFA13TNVMAHXHE78): entity_id=['switch.child_room_radiator_switch']>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 603, in request
     return await future
@@ -87,7 +87,7 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/zha/helpers.py", line 1394, in handler
     raise HomeAssistantError(err) from err
 homeassistant.exceptions.HomeAssistantError: Failed to send request: device did not respond
-2025-10-05 01:18:12.542 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_off (c:01K6RMS140QBK3G428288BYC2P): entity_id=['switch.bedroom_radiator_switch']>
+2025-10-05 11:42:21.335 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_off (c:01K6SRDR3RS0VKTXT49DMKDWNA): entity_id=['switch.child_room_radiator_switch']>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 603, in request
     return await future
@@ -176,96 +176,7 @@ Traceback (most recent call last):
   File "/usr/src/homeassistant/homeassistant/components/zha/helpers.py", line 1394, in handler
     raise HomeAssistantError(err) from err
 homeassistant.exceptions.HomeAssistantError: Failed to send request: device did not respond
-2025-10-05 03:39:21.810 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_on (c:01K6RWVGBGJZTT8CXJ5PB1T1DP): entity_id=['switch.bedroom_radiator_switch']>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 603, in request
-    return await future
-           ^^^^^^^^^^^^
-asyncio.exceptions.CancelledError
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/__init__.py", line 68, in wrap_zigpy_exceptions
-    yield
-  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/__init__.py", line 88, in wrapper
-    return await RETRYABLE_REQUEST_DECORATOR(func)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/site-packages/zigpy/util.py", line 133, in retry
-    return await func()
-           ^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/site-packages/zigpy/zcl/__init__.py", line 401, in request
-    return await self._endpoint.request(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<9 lines>...
-    )
-    ^
-  File "/usr/local/lib/python3.13/site-packages/zigpy/endpoint.py", line 234, in request
-    return await self.device.request(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<11 lines>...
-    )
-    ^
-  File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 602, in request
-    async with asyncio_timeout(timeout):
-               ~~~~~~~~~~~~~~~^^^^^^^^^
-  File "/usr/local/lib/python3.13/asyncio/timeouts.py", line 116, in __aexit__
-    raise TimeoutError from exc_val
-TimeoutError
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/components/zha/helpers.py", line 1392, in handler
-    return await func(self, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/zha/switch.py", line 57, in async_turn_on
-    await self.entity_data.entity.async_turn_on()
-  File "/usr/local/lib/python3.13/site-packages/zha/application/platforms/switch.py", line 99, in async_turn_on
-    await self._on_off_cluster_handler.turn_on()
-  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/general.py", line 570, in turn_on
-    result = await self.on()
-             ^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/__init__.py", line 87, in wrapper
-    with wrap_zigpy_exceptions():
-         ~~~~~~~~~~~~~~~~~~~~~^^
-  File "/usr/local/lib/python3.13/contextlib.py", line 162, in __exit__
-    self.gen.throw(value)
-    ~~~~~~~~~~~~~~^^^^^^^
-  File "/usr/local/lib/python3.13/site-packages/zha/zigbee/cluster_handlers/__init__.py", line 70, in wrap_zigpy_exceptions
-    raise ZHAException("Failed to send request: device did not respond") from exc
-zha.exceptions.ZHAException: Failed to send request: device did not respond
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2855, in _run_service_call_catch_exceptions
-    await coro_or_task
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2878, in _execute_service
-    return await target(service_call)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/homeassistant/__init__.py", line 176, in async_handle_turn_service
-    await asyncio.gather(*tasks)
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2835, in async_call
-    response_data = await coro
-                    ^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/core.py", line 2878, in _execute_service
-    return await target(service_call)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 852, in entity_service_call
-    single_response = await _handle_entity_call(
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
-        hass, entity, func, data, call.context
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 924, in _handle_entity_call
-    result = await task
-             ^^^^^^^^^^
-  File "/usr/src/homeassistant/homeassistant/components/zha/helpers.py", line 1394, in handler
-    raise HomeAssistantError(err) from err
-homeassistant.exceptions.HomeAssistantError: Failed to send request: device did not respond
-2025-10-05 05:32:24.583 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_off (c:01K6S3ADGNH5C03M98PG3M6J9K): entity_id=['switch.bedroom_radiator_switch']>
+2025-10-05 11:42:50.047 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall homeassistant.turn_off (c:01K6SRE4PGTY8A2C79V5BEQDK3): entity_id=['switch.child_room_radiator_switch']>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/zigpy/device.py", line 603, in request
     return await future
