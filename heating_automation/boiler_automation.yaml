@@ -1,15 +1,4 @@
 boiler_automation:
-  input_boolean:
-    boiler_locked:
-      name: Boiler Lock (anti short-cycle)
-      initial: off
-
-  timer:
-    boiler_min_on:
-      duration: "00:05:00"
-    boiler_min_off:
-      duration: "00:05:00"
-
   automation:
 
     # --- Turn ON boiler when any thermostat requests heat ---
