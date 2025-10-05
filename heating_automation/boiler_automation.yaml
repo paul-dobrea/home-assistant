@@ -1,68 +1,88 @@
 boiler_automation:
+  input_boolean:
+    boiler_locked:
+      name: Boiler Lock (anti short-cycle)
+      initial: off
+
+  timer:
+    boiler_min_on:
+      duration: "00:05:00"
+    boiler_min_off:
+      duration: "00:05:00"
+
   automation:
-    - alias: Boiler Control with Cycle Protection
-      description: Control the boiler with minimum on/off protection
+
+    # --- Turn ON boiler when any thermostat requests heat ---
+    - alias: Boiler ON when heating required
       trigger:
         - platform: state
-          entity_id: binary_sensor.heating_demand
+          entity_id:
+            - climate.bedroom_radiator_thermostat
+            - climate.child_radiator_thermostat
+            - climate.living_room_radiator_1_thermostat
+            - climate.living_room_radiator_2_thermostat
+          to: "heating"
+      condition:
+        - condition: state
+          entity_id: input_boolean.boiler_locked
+          state: "off"
       action:
-        - choose:
-            # Case 1: Heating demand present, boiler can run
-            - conditions:
-                - condition: state
-                  entity_id: binary_sensor.heating_demand
-                  state: 'on'
-                - condition: state
-                  entity_id: input_boolean.boiler_locked
-                  state: 'off'
-              sequence:
-                - service: switch.turn_on
-                  target:
-                    entity_id: switch.boiler_control_switch
-                - service: timer.start
-                  target:
-                    entity_id: timer.boiler_min_on
-                - service: input_boolean.turn_on
-                  target:
-                    entity_id: input_boolean.boiler_locked
-
-            # Case 2: No heating demand, boiler can stop
-            - conditions:
-                - condition: state
-                  entity_id: binary_sensor.heating_demand
-                  state: 'off'
-                - condition: state
-                  entity_id: input_boolean.boiler_locked
-                  state: 'on'
-              sequence:
-                - service: switch.turn_off
-                  target:
-                    entity_id: switch.boiler_control_switch
-                - service: timer.start
-                  target:
-                    entity_id: timer.boiler_min_off
-                - service: input_boolean.turn_off
-                  target:
-                    entity_id: input_boolean.boiler_locked
-      mode: restart
-
-    - alias: Unlock Boiler After Min On
-      trigger:
-        - platform: event
-          event_type: timer.finished
-          event_data:
+        - service: switch.turn_on
+          target:
+            entity_id: switch.boiler_control_switch
+        - service: input_boolean.turn_on
+          target:
+            entity_id: input_boolean.boiler_locked
+        - service: timer.start
+          target:
             entity_id: timer.boiler_min_on
+
+    # --- Turn OFF boiler when no thermostats need heat ---
+    - alias: Boiler OFF when no heating required
+      trigger:
+        - platform: state
+          entity_id:
+            - climate.bedroom_radiator_thermostat
+            - climate.child_radiator_thermostat
+            - climate.living_room_radiator_1_thermostat
+            - climate.living_room_radiator_2_thermostat
+          to: "idle"
+      condition:
+        - condition: state
+          entity_id: timer.boiler_min_on
+          state: "idle"  # Wait until min ON period passed
+        - condition: state
+          entity_id: climate.bedroom_radiator_thermostat
+          state: "idle"
+        - condition: state
+          entity_id: climate.child_radiator_thermostat
+          state: "idle"
+        - condition: state
+          entity_id: climate.living_room_radiator_1_thermostat
+          state: "idle"
+        - condition: state
+          entity_id: climate.living_room_radiator_2_thermostat
+          state: "idle"
       action:
-        - service: input_boolean.turn_off
+        - service: switch.turn_off
+          target:
+            entity_id: switch.boiler_control_switch
+        - service: timer.start
+          target:
+            entity_id: timer.boiler_min_off
+        - service: input_boolean.turn_on
           target:
             entity_id: input_boolean.boiler_locked
 
-    - alias: Unlock Boiler After Min Off
+    # --- Unlock boiler after ON or OFF timer expires ---
+    - alias: Boiler Unlock after min cycle
       trigger:
         - platform: event
           event_type: timer.finished
           event_data:
-            entity_id: timer.boiler_min_off
+            entity_id:
+              - timer.boiler_min_on
+              - timer.boiler_min_off
       action:
         - service: input_boolean.turn_off
           target:
