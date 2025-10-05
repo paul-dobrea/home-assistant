@@ -6,12 +6,12 @@
     "automation.None": [
       {
         "extended_dict": {
-          "last_step": "action/0/choose/1/conditions/0/entity_id/0",
-          "run_id": "b5b7aff9c1b700b208651e49c07ccfe8",
+          "last_step": "action/2",
+          "run_id": "4302f18acf5b42ac21a2ab9c18c613e7",
           "state": "running",
           "script_execution": null,
           "timestamp": {
-            "start": "2025-10-05T08:27:02.238656+00:00",
+            "start": "2025-10-05T08:38:32.138536+00:00",
             "finish": null
           },
           "domain": "automation",
@@ -21,23 +21,23 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2025-10-05T08:27:02.238845+00:00",
+                "timestamp": "2025-10-05T08:38:32.138712+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "automation.boiler_control_with_cycle_protection",
+                    "entity_id": "automation.boiler_on",
                     "state": "on",
                     "attributes": {
-                      "last_triggered": "2025-10-05T08:26:37.374938+00:00",
-                      "mode": "restart",
+                      "last_triggered": null,
+                      "mode": "single",
                       "current": 0,
-                      "friendly_name": "Boiler Control with Cycle Protection"
+                      "friendly_name": "Boiler ON"
                     },
-                    "last_changed": "2025-10-05T08:21:49.009281+00:00",
-                    "last_reported": "2025-10-05T08:26:37.377253+00:00",
-                    "last_updated": "2025-10-05T08:26:37.377253+00:00",
+                    "last_changed": "2025-10-05T08:37:01.742371+00:00",
+                    "last_reported": "2025-10-05T08:37:01.742371+00:00",
+                    "last_updated": "2025-10-05T08:37:01.742371+00:00",
                     "context": {
-                      "id": "01K6SQNPXYGV3WYJ70KHEBX722",
-                      "parent_id": "01K6SQNPXC17XJFK4CR441P4B1",
+                      "id": "01K6SR8RNEM8MZ2VP4QKVC89QV",
+                      "parent_id": null,
                       "user_id": null
                     }
                   },
@@ -54,11 +54,11 @@
                         "icon": "mdi:fire-off",
                         "friendly_name": "Heating Demand"
                       },
-                      "last_changed": "2025-10-05T08:26:37.358097+00:00",
-                      "last_reported": "2025-10-05T08:26:37.359294+00:00",
-                      "last_updated": "2025-10-05T08:26:37.359294+00:00",
+                      "last_changed": "2025-10-05T08:37:13.303531+00:00",
+                      "last_reported": "2025-10-05T08:37:13.303531+00:00",
+                      "last_updated": "2025-10-05T08:37:13.303531+00:00",
                       "context": {
-                        "id": "01K6SQNPXC17XJFK4CR441P4B1",
+                        "id": "01K6SR93YQR8WEHKBR1M0FTDGV",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -70,11 +70,11 @@
                         "icon": "mdi:fire-off",
                         "friendly_name": "Heating Demand"
                       },
-                      "last_changed": "2025-10-05T08:27:02.237025+00:00",
-                      "last_reported": "2025-10-05T08:27:02.237025+00:00",
-                      "last_updated": "2025-10-05T08:27:02.237025+00:00",
+                      "last_changed": "2025-10-05T08:38:32.136683+00:00",
+                      "last_reported": "2025-10-05T08:38:32.136683+00:00",
+                      "last_updated": "2025-10-05T08:38:32.136683+00:00",
                       "context": {
-                        "id": "01K6SQPF6V8YM41XQGPXVQ74JK",
+                        "id": "01K6SRBGY7R6ZKZ7EYDJ0E49CS",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -86,1037 +86,142 @@
                 }
               }
             ],
-            "action/0": [
+            "condition/0": [
               {
-                "path": "action/0",
-                "timestamp": "2025-10-05T08:27:02.239455+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01K6SQPF6YDJ29CK6MJ7XFT7FM",
-                    "parent_id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/0/choose/0": [
-              {
-                "path": "action/0/choose/0",
-                "timestamp": "2025-10-05T08:27:02.239714+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0": [
-              {
-                "path": "action/0/choose/0/conditions/0",
-                "timestamp": "2025-10-05T08:27:02.239870+00:00",
+                "path": "condition/0",
+                "timestamp": "2025-10-05T08:38:32.138851+00:00",
                 "result": {
                   "result": true
                 }
               }
             ],
-            "action/0/choose/0/conditions/0/entity_id/0": [
+            "condition/0/entity_id/0": [
               {
-                "path": "action/0/choose/0/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:02.239993+00:00",
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-10-05T08:38:32.138940+00:00",
                 "result": {
                   "result": true,
-                  "state": "on",
-                  "wanted_state": "on"
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/1": [
-              {
-                "path": "action/0/choose/0/conditions/1",
-                "timestamp": "2025-10-05T08:27:02.240196+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/1/entity_id/0": [
-              {
-                "path": "action/0/choose/0/conditions/1/entity_id/0",
-                "timestamp": "2025-10-05T08:27:02.240319+00:00",
-                "result": {
-                  "result": false,
-                  "state": "on",
+                  "state": "off",
                   "wanted_state": "off"
                 }
               }
             ],
-            "action/0/choose/1": [
+            "action/0": [
               {
-                "path": "action/0/choose/1",
-                "timestamp": "2025-10-05T08:27:02.240546+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0": [
-              {
-                "path": "action/0/choose/1/conditions/0",
-                "timestamp": "2025-10-05T08:27:02.240676+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/1/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:02.240794+00:00",
-                "result": {
-                  "result": false,
-                  "state": "on",
-                  "wanted_state": "off"
-                }
-              }
-            ]
-          },
-          "config": {
-            "alias": "Boiler Control with Cycle Protection",
-            "description": "Control the boiler with minimum on/off protection",
-            "trigger": [
-              {
-                "platform": "state",
-                "entity_id": "binary_sensor.heating_demand"
-              }
-            ],
-            "action": [
-              {
-                "choose": [
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "on"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "input_boolean.boiler_locked",
-                        "state": "off"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_on"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_on"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "off"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "timer.boiler_min_on",
-                        "state": "idle"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_off"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_off"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "mode": "restart"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01K6SQPF6YDJ29CK6MJ7XFT7FM",
-            "parent_id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0/choose/1/conditions/0/entity_id/0",
-          "run_id": "b5b7aff9c1b700b208651e49c07ccfe8",
-          "state": "running",
-          "script_execution": null,
-          "timestamp": {
-            "start": "2025-10-05T08:27:02.238656+00:00",
-            "finish": null
-          },
-          "domain": "automation",
-          "item_id": "None",
-          "trigger": "state of binary_sensor.heating_demand"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0/choose/1/conditions/0/entity_id/0",
-          "run_id": "7e70a11627e371f7d8d03475788a0bbf",
-          "state": "running",
-          "script_execution": null,
-          "timestamp": {
-            "start": "2025-10-05T08:27:02.245711+00:00",
-            "finish": null
-          },
-          "domain": "automation",
-          "item_id": "None",
-          "trigger": "state of binary_sensor.heating_demand",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2025-10-05T08:27:02.245977+00:00",
+                "path": "action/0",
+                "timestamp": "2025-10-05T08:38:32.139916+00:00",
                 "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.boiler_control_with_cycle_protection",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2025-10-05T08:27:02.239055+00:00",
-                      "mode": "restart",
-                      "current": 0,
-                      "friendly_name": "Boiler Control with Cycle Protection"
-                    },
-                    "last_changed": "2025-10-05T08:21:49.009281+00:00",
-                    "last_reported": "2025-10-05T08:27:02.241134+00:00",
-                    "last_updated": "2025-10-05T08:27:02.241134+00:00",
-                    "context": {
-                      "id": "01K6SQPF6YDJ29CK6MJ7XFT7FM",
-                      "parent_id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                      "user_id": null
+                  "context": {
+                    "id": "01K6SRBGYA60QWTSPCYQS4A3CW",
+                    "parent_id": "01K6SRBGY7R6ZKZ7EYDJ0E49CS",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "switch",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "switch.boiler_control_switch"
+                      ]
                     }
                   },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "state",
-                    "entity_id": "binary_sensor.heating_demand",
-                    "from_state": {
-                      "entity_id": "binary_sensor.heating_demand",
-                      "state": "on",
-                      "attributes": {
-                        "icon": "mdi:fire-off",
-                        "friendly_name": "Heating Demand"
-                      },
-                      "last_changed": "2025-10-05T08:27:02.237025+00:00",
-                      "last_reported": "2025-10-05T08:27:02.237025+00:00",
-                      "last_updated": "2025-10-05T08:27:02.237025+00:00",
-                      "context": {
-                        "id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "to_state": {
-                      "entity_id": "binary_sensor.heating_demand",
-                      "state": "on",
-                      "attributes": {
-                        "icon": "mdi:fire",
-                        "friendly_name": "Heating Demand"
-                      },
-                      "last_changed": "2025-10-05T08:27:02.237025+00:00",
-                      "last_reported": "2025-10-05T08:27:02.238188+00:00",
-                      "last_updated": "2025-10-05T08:27:02.238188+00:00",
-                      "context": {
-                        "id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "for": null,
-                    "attribute": null,
-                    "description": "state of binary_sensor.heating_demand"
-                  }
+                  "running_script": false
                 }
               }
             ],
-            "action/0": [
+            "action/1": [
               {
-                "path": "action/0",
-                "timestamp": "2025-10-05T08:27:02.246690+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01K6SQPF75X4XBD8YJZVZ87C5W",
-                    "parent_id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/0/choose/0": [
-              {
-                "path": "action/0/choose/0",
-                "timestamp": "2025-10-05T08:27:02.246935+00:00",
+                "path": "action/1",
+                "timestamp": "2025-10-05T08:38:32.174399+00:00",
                 "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0": [
-              {
-                "path": "action/0/choose/0/conditions/0",
-                "timestamp": "2025-10-05T08:27:02.247088+00:00",
-                "result": {
-                  "result": true
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/0/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:02.247212+00:00",
-                "result": {
-                  "result": true,
-                  "state": "on",
-                  "wanted_state": "on"
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/1": [
-              {
-                "path": "action/0/choose/0/conditions/1",
-                "timestamp": "2025-10-05T08:27:02.247416+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/1/entity_id/0": [
-              {
-                "path": "action/0/choose/0/conditions/1/entity_id/0",
-                "timestamp": "2025-10-05T08:27:02.247536+00:00",
-                "result": {
-                  "result": false,
-                  "state": "on",
-                  "wanted_state": "off"
-                }
-              }
-            ],
-            "action/0/choose/1": [
-              {
-                "path": "action/0/choose/1",
-                "timestamp": "2025-10-05T08:27:02.247763+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0": [
-              {
-                "path": "action/0/choose/1/conditions/0",
-                "timestamp": "2025-10-05T08:27:02.247889+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/1/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:02.248007+00:00",
-                "result": {
-                  "result": false,
-                  "state": "on",
-                  "wanted_state": "off"
-                }
-              }
-            ]
-          },
-          "config": {
-            "alias": "Boiler Control with Cycle Protection",
-            "description": "Control the boiler with minimum on/off protection",
-            "trigger": [
-              {
-                "platform": "state",
-                "entity_id": "binary_sensor.heating_demand"
-              }
-            ],
-            "action": [
-              {
-                "choose": [
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "on"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "input_boolean.boiler_locked",
-                        "state": "off"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_on"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_on"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "off"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "timer.boiler_min_on",
-                        "state": "idle"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_off"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_off"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "mode": "restart"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01K6SQPF75X4XBD8YJZVZ87C5W",
-            "parent_id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0/choose/1/conditions/0/entity_id/0",
-          "run_id": "7e70a11627e371f7d8d03475788a0bbf",
-          "state": "running",
-          "script_execution": null,
-          "timestamp": {
-            "start": "2025-10-05T08:27:02.245711+00:00",
-            "finish": null
-          },
-          "domain": "automation",
-          "item_id": "None",
-          "trigger": "state of binary_sensor.heating_demand"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0/choose/1/conditions/1/entity_id/0",
-          "run_id": "4b01dcd3df238bc66d9359cb0ef59784",
-          "state": "running",
-          "script_execution": null,
-          "timestamp": {
-            "start": "2025-10-05T08:27:32.341175+00:00",
-            "finish": null
-          },
-          "domain": "automation",
-          "item_id": "None",
-          "trigger": "state of binary_sensor.heating_demand",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2025-10-05T08:27:32.341377+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.boiler_control_with_cycle_protection",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2025-10-05T08:27:02.246211+00:00",
-                      "mode": "restart",
-                      "current": 0,
-                      "friendly_name": "Boiler Control with Cycle Protection"
-                    },
-                    "last_changed": "2025-10-05T08:21:49.009281+00:00",
-                    "last_reported": "2025-10-05T08:27:02.248347+00:00",
-                    "last_updated": "2025-10-05T08:27:02.248347+00:00",
-                    "context": {
-                      "id": "01K6SQPF75X4XBD8YJZVZ87C5W",
-                      "parent_id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                      "user_id": null
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.boiler_locked"
+                      ]
                     }
                   },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "state",
-                    "entity_id": "binary_sensor.heating_demand",
-                    "from_state": {
-                      "entity_id": "binary_sensor.heating_demand",
-                      "state": "on",
-                      "attributes": {
-                        "icon": "mdi:fire",
-                        "friendly_name": "Heating Demand"
-                      },
-                      "last_changed": "2025-10-05T08:27:02.237025+00:00",
-                      "last_reported": "2025-10-05T08:27:02.238188+00:00",
-                      "last_updated": "2025-10-05T08:27:02.238188+00:00",
-                      "context": {
-                        "id": "01K6SQPF6V8YM41XQGPXVQ74JK",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "to_state": {
-                      "entity_id": "binary_sensor.heating_demand",
-                      "state": "off",
-                      "attributes": {
-                        "icon": "mdi:fire",
-                        "friendly_name": "Heating Demand"
-                      },
-                      "last_changed": "2025-10-05T08:27:32.339529+00:00",
-                      "last_reported": "2025-10-05T08:27:32.339529+00:00",
-                      "last_updated": "2025-10-05T08:27:32.339529+00:00",
-                      "context": {
-                        "id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "for": null,
-                    "attribute": null,
-                    "description": "state of binary_sensor.heating_demand"
-                  }
+                  "running_script": false
                 }
               }
             ],
-            "action/0": [
+            "action/2": [
               {
-                "path": "action/0",
-                "timestamp": "2025-10-05T08:27:32.342035+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01K6SQQCKNS28T07QN5KW5GC4M",
-                    "parent_id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/0/choose/0": [
-              {
-                "path": "action/0/choose/0",
-                "timestamp": "2025-10-05T08:27:32.342400+00:00",
+                "path": "action/2",
+                "timestamp": "2025-10-05T08:38:32.176410+00:00",
                 "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0": [
-              {
-                "path": "action/0/choose/0/conditions/0",
-                "timestamp": "2025-10-05T08:27:32.342575+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/0/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:32.342706+00:00",
-                "result": {
-                  "result": false,
-                  "state": "off",
-                  "wanted_state": "on"
-                }
-              }
-            ],
-            "action/0/choose/1": [
-              {
-                "path": "action/0/choose/1",
-                "timestamp": "2025-10-05T08:27:32.342979+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0": [
-              {
-                "path": "action/0/choose/1/conditions/0",
-                "timestamp": "2025-10-05T08:27:32.343109+00:00",
-                "result": {
-                  "result": true
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/1/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:32.343230+00:00",
-                "result": {
-                  "result": true,
-                  "state": "off",
-                  "wanted_state": "off"
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/1": [
-              {
-                "path": "action/0/choose/1/conditions/1",
-                "timestamp": "2025-10-05T08:27:32.343406+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/1/entity_id/0": [
-              {
-                "path": "action/0/choose/1/conditions/1/entity_id/0",
-                "timestamp": "2025-10-05T08:27:32.343526+00:00",
-                "result": {
-                  "result": false,
-                  "state": "active",
-                  "wanted_state": "idle"
-                }
-              }
-            ]
-          },
-          "config": {
-            "alias": "Boiler Control with Cycle Protection",
-            "description": "Control the boiler with minimum on/off protection",
-            "trigger": [
-              {
-                "platform": "state",
-                "entity_id": "binary_sensor.heating_demand"
-              }
-            ],
-            "action": [
-              {
-                "choose": [
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "on"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "input_boolean.boiler_locked",
-                        "state": "off"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_on"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_on"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "off"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "timer.boiler_min_on",
-                        "state": "idle"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_off"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_off"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "mode": "restart"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01K6SQQCKNS28T07QN5KW5GC4M",
-            "parent_id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0/choose/1/conditions/1/entity_id/0",
-          "run_id": "4b01dcd3df238bc66d9359cb0ef59784",
-          "state": "running",
-          "script_execution": null,
-          "timestamp": {
-            "start": "2025-10-05T08:27:32.341175+00:00",
-            "finish": null
-          },
-          "domain": "automation",
-          "item_id": "None",
-          "trigger": "state of binary_sensor.heating_demand"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0/choose/1/conditions/1/entity_id/0",
-          "run_id": "3c66ad74697c65cbb7c34ba94faa4572",
-          "state": "running",
-          "script_execution": null,
-          "timestamp": {
-            "start": "2025-10-05T08:27:32.347846+00:00",
-            "finish": null
-          },
-          "domain": "automation",
-          "item_id": "None",
-          "trigger": "state of binary_sensor.heating_demand",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2025-10-05T08:27:32.348110+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.boiler_control_with_cycle_protection",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2025-10-05T08:27:32.341592+00:00",
-                      "mode": "restart",
-                      "current": 0,
-                      "friendly_name": "Boiler Control with Cycle Protection"
-                    },
-                    "last_changed": "2025-10-05T08:21:49.009281+00:00",
-                    "last_reported": "2025-10-05T08:27:32.346446+00:00",
-                    "last_updated": "2025-10-05T08:27:32.346446+00:00",
-                    "context": {
-                      "id": "01K6SQQCKNS28T07QN5KW5GC4M",
-                      "parent_id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-                      "user_id": null
+                  "params": {
+                    "domain": "timer",
+                    "service": "start",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "timer.boiler_min_on"
+                      ]
                     }
                   },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "state",
-                    "entity_id": "binary_sensor.heating_demand",
-                    "from_state": {
-                      "entity_id": "binary_sensor.heating_demand",
-                      "state": "off",
-                      "attributes": {
-                        "icon": "mdi:fire",
-                        "friendly_name": "Heating Demand"
-                      },
-                      "last_changed": "2025-10-05T08:27:32.339529+00:00",
-                      "last_reported": "2025-10-05T08:27:32.339529+00:00",
-                      "last_updated": "2025-10-05T08:27:32.339529+00:00",
-                      "context": {
-                        "id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "to_state": {
-                      "entity_id": "binary_sensor.heating_demand",
-                      "state": "off",
-                      "attributes": {
-                        "icon": "mdi:fire-off",
-                        "friendly_name": "Heating Demand"
-                      },
-                      "last_changed": "2025-10-05T08:27:32.339529+00:00",
-                      "last_reported": "2025-10-05T08:27:32.340700+00:00",
-                      "last_updated": "2025-10-05T08:27:32.340700+00:00",
-                      "context": {
-                        "id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "for": null,
-                    "attribute": null,
-                    "description": "state of binary_sensor.heating_demand"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2025-10-05T08:27:32.348779+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01K6SQQCKVBDB12T6VNX85J60K",
-                    "parent_id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/0/choose/0": [
-              {
-                "path": "action/0/choose/0",
-                "timestamp": "2025-10-05T08:27:32.349031+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0": [
-              {
-                "path": "action/0/choose/0/conditions/0",
-                "timestamp": "2025-10-05T08:27:32.349200+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/0/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/0/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:32.349331+00:00",
-                "result": {
-                  "result": false,
-                  "state": "off",
-                  "wanted_state": "on"
-                }
-              }
-            ],
-            "action/0/choose/1": [
-              {
-                "path": "action/0/choose/1",
-                "timestamp": "2025-10-05T08:27:32.349600+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0": [
-              {
-                "path": "action/0/choose/1/conditions/0",
-                "timestamp": "2025-10-05T08:27:32.349730+00:00",
-                "result": {
-                  "result": true
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/0/entity_id/0": [
-              {
-                "path": "action/0/choose/1/conditions/0/entity_id/0",
-                "timestamp": "2025-10-05T08:27:32.349850+00:00",
-                "result": {
-                  "result": true,
-                  "state": "off",
-                  "wanted_state": "off"
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/1": [
-              {
-                "path": "action/0/choose/1/conditions/1",
-                "timestamp": "2025-10-05T08:27:32.350026+00:00",
-                "result": {
-                  "result": false
-                }
-              }
-            ],
-            "action/0/choose/1/conditions/1/entity_id/0": [
-              {
-                "path": "action/0/choose/1/conditions/1/entity_id/0",
-                "timestamp": "2025-10-05T08:27:32.350145+00:00",
-                "result": {
-                  "result": false,
-                  "state": "active",
-                  "wanted_state": "idle"
+                  "running_script": false
                 }
               }
             ]
           },
           "config": {
-            "alias": "Boiler Control with Cycle Protection",
-            "description": "Control the boiler with minimum on/off protection",
+            "alias": "Boiler ON",
             "trigger": [
               {
                 "platform": "state",
-                "entity_id": "binary_sensor.heating_demand"
+                "entity_id": "binary_sensor.heating_demand",
+                "to": "on"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "state",
+                "entity_id": "input_boolean.boiler_locked",
+                "state": "off"
               }
             ],
             "action": [
               {
-                "choose": [
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "on"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "input_boolean.boiler_locked",
-                        "state": "off"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_on"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_on"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "condition": "state",
-                        "entity_id": "binary_sensor.heating_demand",
-                        "state": "off"
-                      },
-                      {
-                        "condition": "state",
-                        "entity_id": "timer.boiler_min_on",
-                        "state": "idle"
-                      }
-                    ],
-                    "sequence": [
-                      {
-                        "target": {
-                          "entity_id": "switch.boiler_control_switch"
-                        },
-                        "action": "switch.turn_off"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "timer.boiler_min_off"
-                        },
-                        "action": "timer.start"
-                      },
-                      {
-                        "target": {
-                          "entity_id": "input_boolean.boiler_locked"
-                        },
-                        "action": "input_boolean.turn_on"
-                      }
-                    ]
-                  }
-                ]
+                "target": {
+                  "entity_id": "switch.boiler_control_switch"
+                },
+                "action": "switch.turn_on"
+              },
+              {
+                "target": {
+                  "entity_id": "input_boolean.boiler_locked"
+                },
+                "action": "input_boolean.turn_on"
+              },
+              {
+                "target": {
+                  "entity_id": "timer.boiler_min_on"
+                },
+                "action": "timer.start"
               }
-            ],
-            "mode": "restart"
+            ]
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01K6SQQCKVBDB12T6VNX85J60K",
-            "parent_id": "01K6SQQCKJK7WWVS9NFB7X7K2Q",
+            "id": "01K6SRBGYA60QWTSPCYQS4A3CW",
+            "parent_id": "01K6SRBGY7R6ZKZ7EYDJ0E49CS",
             "user_id": null
           }
         },
         "short_dict": {
-          "last_step": "action/0/choose/1/conditions/1/entity_id/0",
-          "run_id": "3c66ad74697c65cbb7c34ba94faa4572",
+          "last_step": "action/2",
+          "run_id": "4302f18acf5b42ac21a2ab9c18c613e7",
           "state": "running",
           "script_execution": null,
           "timestamp": {
-            "start": "2025-10-05T08:27:32.347846+00:00",
+            "start": "2025-10-05T08:38:32.138536+00:00",
             "finish": null
           },
           "domain": "automation",
@@ -1126,12 +231,12 @@
       },
       {
         "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "0ebc62c9d7e8d7bd2f873aec709d097a",
+          "last_step": "action/2",
+          "run_id": "7b9c8a3677d996914460797c9784a397",
           "state": "running",
           "script_execution": null,
           "timestamp": {
-            "start": "2025-10-05T08:28:13.003482+00:00",
+            "start": "2025-10-05T08:43:32.002533+00:00",
             "finish": null
           },
           "domain": "automation",
@@ -1141,22 +246,22 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2025-10-05T08:28:13.003704+00:00",
+                "timestamp": "2025-10-05T08:43:32.002705+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "automation.unlock_boiler_after_min_on",
+                    "entity_id": "automation.boiler_off_after_min_on",
                     "state": "on",
                     "attributes": {
-                      "last_triggered": "2025-10-05T08:20:51.002332+00:00",
+                      "last_triggered": null,
                       "mode": "single",
                       "current": 0,
-                      "friendly_name": "Unlock Boiler After Min On"
+                      "friendly_name": "Boiler OFF after min-on"
                     },
-                    "last_changed": "2025-10-05T08:21:49.010374+00:00",
-                    "last_reported": "2025-10-05T08:21:49.010374+00:00",
-                    "last_updated": "2025-10-05T08:21:49.010374+00:00",
+                    "last_changed": "2025-10-05T08:37:01.743834+00:00",
+                    "last_reported": "2025-10-05T08:37:01.743834+00:00",
+                    "last_updated": "2025-10-05T08:37:01.743834+00:00",
                     "context": {
-                      "id": "01K6SQCXAJSCGZMCGEEBS4Y5MS",
+                      "id": "01K6SR8RNF66VABHZE303A1CDX",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -1170,12 +275,218 @@
                       "event_type": "timer.finished",
                       "data": {
                         "entity_id": "timer.boiler_min_on",
-                        "finished_at": "2025-10-05T08:28:13+00:00"
+                        "finished_at": "2025-10-05T08:43:32+00:00"
                       },
                       "origin": "LOCAL",
-                      "time_fired": "2025-10-05T08:28:13.003012+00:00",
+                      "time_fired": "2025-10-05T08:43:32.001978+00:00",
                       "context": {
-                        "id": "01K6SQRMAB7B422DD48WPW0PYH",
+                        "id": "01K6SRMNS18N2CMGCJPK50Z22A",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "description": "event 'timer.finished'"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2025-10-05T08:43:32.002806+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-10-05T08:43:32.002878+00:00",
+                "result": {
+                  "result": true,
+                  "state": "off",
+                  "wanted_state": "off"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-10-05T08:43:32.003858+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01K6SRMNS2PWMKJSN34VS2AX17",
+                    "parent_id": "01K6SRMNS18N2CMGCJPK50Z22A",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "switch",
+                    "service": "turn_off",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "switch.boiler_control_switch"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2025-10-05T08:43:32.024739+00:00",
+                "result": {
+                  "params": {
+                    "domain": "timer",
+                    "service": "start",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "timer.boiler_min_off"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2025-10-05T08:43:32.026848+00:00",
+                "result": {
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "turn_off",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.boiler_locked"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Boiler OFF after min-on",
+            "trigger": [
+              {
+                "platform": "event",
+                "event_type": "timer.finished",
+                "event_data": {
+                  "entity_id": "timer.boiler_min_on"
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "state",
+                "entity_id": "binary_sensor.heating_demand",
+                "state": "off"
+              }
+            ],
+            "action": [
+              {
+                "target": {
+                  "entity_id": "switch.boiler_control_switch"
+                },
+                "action": "switch.turn_off"
+              },
+              {
+                "target": {
+                  "entity_id": "timer.boiler_min_off"
+                },
+                "action": "timer.start"
+              },
+              {
+                "target": {
+                  "entity_id": "input_boolean.boiler_locked"
+                },
+                "action": "input_boolean.turn_off"
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01K6SRMNS2PWMKJSN34VS2AX17",
+            "parent_id": "01K6SRMNS18N2CMGCJPK50Z22A",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/2",
+          "run_id": "7b9c8a3677d996914460797c9784a397",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2025-10-05T08:43:32.002533+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "event 'timer.finished'"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "191bcc18e769c22132c05437bf027d18",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2025-10-05T08:48:32.001560+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "event 'timer.finished'",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-10-05T08:48:32.001690+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.unlock_boiler_after_min_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2025-10-05T08:20:42.002750+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Unlock Boiler After Min Off"
+                    },
+                    "last_changed": "2025-10-05T08:37:01.744613+00:00",
+                    "last_reported": "2025-10-05T08:37:01.744613+00:00",
+                    "last_updated": "2025-10-05T08:37:01.744613+00:00",
+                    "context": {
+                      "id": "01K6SR8RNG1RCCQKM0W4VGX3RZ",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "event",
+                    "event": {
+                      "event_type": "timer.finished",
+                      "data": {
+                        "entity_id": "timer.boiler_min_off",
+                        "finished_at": "2025-10-05T08:48:32+00:00"
+                      },
+                      "origin": "LOCAL",
+                      "time_fired": "2025-10-05T08:48:32.001105+00:00",
+                      "context": {
+                        "id": "01K6SRXTR17WWWBQJM6G0SM2M3",
                         "parent_id": null,
                         "user_id": null
                       }
@@ -1188,11 +499,11 @@
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2025-10-05T08:28:13.004544+00:00",
+                "timestamp": "2025-10-05T08:48:32.002383+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01K6SQRMABXHMMPQ5JZKMQBPS9",
-                    "parent_id": "01K6SQRMAB7B422DD48WPW0PYH",
+                    "id": "01K6SRXTR1MFY51BX667VV83F8",
+                    "parent_id": "01K6SRXTR17WWWBQJM6G0SM2M3",
                     "user_id": null
                   }
                 },
@@ -1213,13 +524,13 @@
             ]
           },
           "config": {
-            "alias": "Unlock Boiler After Min On",
+            "alias": "Unlock Boiler After Min Off",
             "trigger": [
               {
                 "platform": "event",
                 "event_type": "timer.finished",
                 "event_data": {
-                  "entity_id": "timer.boiler_min_on"
+                  "entity_id": "timer.boiler_min_off"
                 }
               }
             ],
@@ -1234,18 +545,18 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01K6SQRMABXHMMPQ5JZKMQBPS9",
-            "parent_id": "01K6SQRMAB7B422DD48WPW0PYH",
+            "id": "01K6SRXTR1MFY51BX667VV83F8",
+            "parent_id": "01K6SRXTR17WWWBQJM6G0SM2M3",
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "0ebc62c9d7e8d7bd2f873aec709d097a",
+          "run_id": "191bcc18e769c22132c05437bf027d18",
           "state": "running",
           "script_execution": null,
           "timestamp": {
-            "start": "2025-10-05T08:28:13.003482+00:00",
+            "start": "2025-10-05T08:48:32.001560+00:00",
             "finish": null
           },
           "domain": "automation",

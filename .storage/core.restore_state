@@ -4,488 +4,488 @@
   "key": "core.restore_state",
   "data": [
     {
-      "state": {"entity_id":"switch.living_room_radiators","state":"off","attributes":{"friendly_name":"Living Room Radiators"},"last_changed":"2025-10-05T08:37:13.300540+00:00","last_reported":"2025-10-05T08:37:13.300540+00:00","last_updated":"2025-10-05T08:37:13.300540+00:00","context":{"id":"01K6SR93YM4PR1FWGRT83NJHRA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiators","state":"off","attributes":{"friendly_name":"Living Room Radiators"},"last_changed":"2025-10-05T12:49:18.606514+00:00","last_reported":"2025-10-05T12:49:18.606514+00:00","last_updated":"2025-10-05T12:49:18.606514+00:00","context":{"id":"01K6T6PPRCA0Y4H41QT5XK7921","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2025.10.0","in_progress":false,"latest_version":"2025.10.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2025.10.0","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2025-10-05T08:36:45.448057+00:00","last_reported":"2025-10-05T08:36:45.448057+00:00","last_updated":"2025-10-05T08:36:45.448057+00:00","context":{"id":"01K6SR88R8HTQPX0SX4TB0BESD","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2025.10.0","in_progress":false,"latest_version":"2025.10.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2025.10.0","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2025-10-05T12:38:13.893418+00:00","last_reported":"2025-10-05T12:38:13.893418+00:00","last_updated":"2025-10-05T12:38:13.893418+00:00","context":{"id":"01K6T62DM59ABR5T8PDPS69ZZP","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2025.10.1","in_progress":false,"latest_version":"2025.10.1","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2025-10-05T08:36:45.449187+00:00","last_reported":"2025-10-05T08:36:45.449187+00:00","last_updated":"2025-10-05T08:36:45.449187+00:00","context":{"id":"01K6SR88R97RZJ37NDB219KBRN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2025.10.1","in_progress":false,"latest_version":"2025.10.1","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2025-10-05T12:38:13.894620+00:00","last_reported":"2025-10-05T12:38:13.894620+00:00","last_updated":"2025-10-05T12:38:13.894620+00:00","context":{"id":"01K6T62DM6H6P05529Z6HAKH62","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"File editor","update_percentage":null,"entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2025-10-05T08:36:45.450030+00:00","last_reported":"2025-10-05T08:36:45.450030+00:00","last_updated":"2025-10-05T08:36:45.450030+00:00","context":{"id":"01K6SR88RAAFHFNB4BCXQAHAR4","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":null,"release_url":null,"skipped_version":null,"title":"File editor","update_percentage":null,"entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2025-10-05T12:38:13.895490+00:00","last_reported":"2025-10-05T12:38:13.895490+00:00","last_updated":"2025-10-05T12:38:13.895490+00:00","context":{"id":"01K6T62DM7Z3SZM8AV09RTFPMJ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"21.0.3","in_progress":false,"latest_version":"21.0.3","release_summary":null,"release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","update_percentage":null,"entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2025-10-05T08:36:45.450692+00:00","last_reported":"2025-10-05T08:36:45.450692+00:00","last_updated":"2025-10-05T08:36:45.450692+00:00","context":{"id":"01K6SR88RAK5RDY4ZZH5TJDVG4","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"21.0.3","in_progress":false,"latest_version":"21.0.3","release_summary":null,"release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","update_percentage":null,"entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2025-10-05T12:38:13.896197+00:00","last_reported":"2025-10-05T12:38:13.896197+00:00","last_updated":"2025-10-05T12:38:13.896197+00:00","context":{"id":"01K6T62DM8CE6S2CKCN97WDAKJ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"16.2","in_progress":false,"latest_version":"16.2","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/16.2","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":11},"last_changed":"2025-10-05T08:36:45.451892+00:00","last_reported":"2025-10-05T08:36:45.451892+00:00","last_updated":"2025-10-05T08:36:45.451892+00:00","context":{"id":"01K6SR88RBX6P0NGEJ7F0PT1M9","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"16.2","in_progress":false,"latest_version":"16.2","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/16.2","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":11},"last_changed":"2025-10-05T12:38:13.897441+00:00","last_reported":"2025-10-05T12:38:13.897441+00:00","last_updated":"2025-10-05T12:38:13.897441+00:00","context":{"id":"01K6T62DM906QMDRQHTQAKEJZZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"binary_sensor.heating_demand","state":"off","attributes":{"icon":"mdi:fire-off","friendly_name":"Heating Demand"},"last_changed":"2025-10-05T08:39:59.587696+00:00","last_reported":"2025-10-05T08:39:59.588866+00:00","last_updated":"2025-10-05T08:39:59.588866+00:00","context":{"id":"01K6SRE6B28S17HB00AW43ZV24","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.heating_demand","state":"off","attributes":{"icon":"mdi:fire-off","friendly_name":"Heating Demand"},"last_changed":"2025-10-05T12:38:41.822471+00:00","last_reported":"2025-10-05T12:38:41.822471+00:00","last_updated":"2025-10-05T12:38:41.822471+00:00","context":{"id":"01K6T638WYZSR4AABET90M461S","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-10-05T08:36:49.155443+00:00","last_reported":"2025-10-05T08:36:49.155443+00:00","last_updated":"2025-10-05T08:36:49.155443+00:00","context":{"id":"01K6SR8CC3B7WHWSE8968VMKSB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-10-05T12:38:17.623077+00:00","last_reported":"2025-10-05T12:38:17.623077+00:00","last_updated":"2025-10-05T12:38:17.623077+00:00","context":{"id":"01K6T62H8QCNCRDGPXNG8B9697","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"event.backup_automatic_backup","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup Automatic backup"},"last_changed":"2025-10-05T08:36:50.255803+00:00","last_reported":"2025-10-05T08:36:50.255803+00:00","last_updated":"2025-10-05T08:36:50.255803+00:00","context":{"id":"01K6SR8DEFPWTND4ZZMPTK2KGB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"event.backup_automatic_backup","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup Automatic backup"},"last_changed":"2025-10-05T12:38:18.700565+00:00","last_reported":"2025-10-05T12:38:18.700565+00:00","last_updated":"2025-10-05T12:38:18.700565+00:00","context":{"id":"01K6T62JACEQWA88FF1PTST69A","parent_id":null,"user_id":null}},
       "extra_data": {
         "last_event_type": null,
         "last_event_attributes": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-10-05T08:36:51.091372+00:00","last_reported":"2025-10-05T08:36:51.091372+00:00","last_updated":"2025-10-05T08:36:51.091372+00:00","context":{"id":"01K6SR8E8KRV14XWTR26ZY8V7K","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-10-05T12:38:19.554052+00:00","last_reported":"2025-10-05T12:38:19.554052+00:00","last_updated":"2025-10-05T12:38:19.554052+00:00","context":{"id":"01K6T62K5221J707XXT53ZY7KH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"tts.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-10-05T08:36:51.093138+00:00","last_reported":"2025-10-05T08:36:51.093138+00:00","last_updated":"2025-10-05T08:36:51.093138+00:00","context":{"id":"01K6SR8E8N69Z2NS2PWAZ82SP7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-10-05T12:38:19.555648+00:00","last_reported":"2025-10-05T12:38:19.555648+00:00","last_updated":"2025-10-05T12:38:19.555648+00:00","context":{"id":"01K6T62K53CNBEWKP07T5YS7C5","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"person.paul","state":"not_home","attributes":{"editable":true,"id":"paul","device_trackers":["device_tracker.ps_iphone","device_tracker.ps_iphone_remote"],"latitude":47.1573572757111,"longitude":27.618909190516444,"gps_accuracy":11,"source":"device_tracker.ps_iphone_remote","user_id":"704c275e343641859a019f45b50994b9","friendly_name":"paul"},"last_changed":"2025-10-05T08:36:51.256970+00:00","last_reported":"2025-10-05T08:37:13.304540+00:00","last_updated":"2025-10-05T08:37:13.304540+00:00","context":{"id":"01K6SR93YRENA71W8YE25KBYSX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"timer.boiler_min_on","state":"idle","attributes":{"duration":"0:05:00","editable":false},"last_changed":"2025-10-05T12:38:19.723553+00:00","last_reported":"2025-10-05T12:38:19.723553+00:00","last_updated":"2025-10-05T12:38:19.723553+00:00","context":{"id":"01K6T62KABE8VW67D6SVJHVSDF","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"input_boolean.boiler_locked","state":"off","attributes":{"editable":false,"friendly_name":"Boiler Locked"},"last_changed":"2025-10-05T08:43:32.027885+00:00","last_reported":"2025-10-05T08:43:32.027885+00:00","last_updated":"2025-10-05T08:43:32.027885+00:00","context":{"id":"01K6SRMNS2PWMKJSN34VS2AX17","parent_id":"01K6SRMNS18N2CMGCJPK50Z22A","user_id":null}},
+      "state": {"entity_id":"timer.boiler_min_off","state":"idle","attributes":{"duration":"0:05:00","editable":false},"last_changed":"2025-10-05T12:38:19.724390+00:00","last_reported":"2025-10-05T12:38:19.724390+00:00","last_updated":"2025-10-05T12:38:19.724390+00:00","context":{"id":"01K6T62KACHE8DFPY4E2S46BV4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"timer.boiler_min_on","state":"idle","attributes":{"duration":"0:05:00","editable":false},"last_changed":"2025-10-05T08:43:32.001459+00:00","last_reported":"2025-10-05T08:43:32.001459+00:00","last_updated":"2025-10-05T08:43:32.001459+00:00","context":{"id":"01K6SRMNS1VD4YV1FWTBVYWDD0","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"person.paul","state":"not_home","attributes":{"editable":true,"id":"paul","device_trackers":["device_tracker.ps_iphone","device_tracker.ps_iphone_remote"],"latitude":47.157462946870055,"longitude":27.618963885760298,"gps_accuracy":18,"source":"device_tracker.ps_iphone_remote","user_id":"704c275e343641859a019f45b50994b9","friendly_name":"paul"},"last_changed":"2025-10-05T12:38:19.725644+00:00","last_reported":"2025-10-05T13:08:05.110345+00:00","last_updated":"2025-10-05T13:08:05.110345+00:00","context":{"id":"01K6T7S2VP0CKK1YJGKGTBXK8G","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"timer.boiler_min_off","state":"idle","attributes":{"duration":"0:05:00","editable":false},"last_changed":"2025-10-05T08:48:32.000818+00:00","last_reported":"2025-10-05T08:48:32.000818+00:00","last_updated":"2025-10-05T08:48:32.000818+00:00","context":{"id":"01K6SRXTR0EJ1TNRP52VC87D01","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_boolean.boiler_locked","state":"off","attributes":{"editable":false,"friendly_name":"Boiler Locked"},"last_changed":"2025-10-05T12:38:19.726814+00:00","last_reported":"2025-10-05T12:38:19.726814+00:00","last_updated":"2025-10-05T12:38:19.726814+00:00","context":{"id":"01K6T62KAEGG507J2G68C797VX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.bedroom_thermostat","state":"heat","attributes":{"hvac_modes":["heat","off"],"min_temp":10.0,"max_temp":25.0,"target_temp_step":0.1,"current_temperature":22.1,"temperature":22.0,"hvac_action":"idle","friendly_name":"Bedroom Thermostat","supported_features":385},"last_changed":"2025-10-05T08:36:56.854821+00:00","last_reported":"2025-10-05T08:37:13.250778+00:00","last_updated":"2025-10-05T08:37:13.248840+00:00","context":{"id":"01K6SR93X0YDGTFT2SPB2YPTDE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"climate.bedroom_thermostat","state":"heat","attributes":{"hvac_modes":["heat","off"],"min_temp":10.0,"max_temp":25.0,"target_temp_step":0.1,"current_temperature":21.7,"temperature":21.0,"hvac_action":"idle","friendly_name":"Bedroom Thermostat","supported_features":385},"last_changed":"2025-10-05T12:38:25.489634+00:00","last_reported":"2025-10-05T13:08:12.199982+00:00","last_updated":"2025-10-05T13:08:12.199982+00:00","context":{"id":"01K6T7S9S6GESFWF4CNHYBKVWJ","parent_id":null,"user_id":"704c275e343641859a019f45b50994b9"}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.child_room_thermostat","state":"heat","attributes":{"hvac_modes":["heat","off"],"min_temp":10.0,"max_temp":25.0,"target_temp_step":0.1,"current_temperature":22.1,"temperature":22.0,"hvac_action":"idle","friendly_name":"Child Room Thermostat","supported_features":385},"last_changed":"2025-10-05T08:39:54.841089+00:00","last_reported":"2025-10-05T08:57:49.289268+00:00","last_updated":"2025-10-05T08:57:49.289268+00:00","context":{"id":"01K6SSETZ9D99Q2BP21RG4BT5X","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"climate.child_room_thermostat","state":"heat","attributes":{"hvac_modes":["heat","off"],"min_temp":10.0,"max_temp":25.0,"target_temp_step":0.1,"current_temperature":21.7,"temperature":21.0,"hvac_action":"idle","friendly_name":"Child Room Thermostat","supported_features":385},"last_changed":"2025-10-05T12:38:25.492000+00:00","last_reported":"2025-10-05T13:08:19.615896+00:00","last_updated":"2025-10-05T13:08:19.615896+00:00","context":{"id":"01K6T7SH0Y7BKZZA0CPJ7862SE","parent_id":null,"user_id":"704c275e343641859a019f45b50994b9"}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.living_room_thermostat","state":"heat","attributes":{"hvac_modes":["heat","off"],"min_temp":10.0,"max_temp":25.0,"target_temp_step":0.1,"current_temperature":22.8,"temperature":22.0,"hvac_action":"idle","friendly_name":"Living Room Thermostat","supported_features":385},"last_changed":"2025-10-05T08:38:15.024629+00:00","last_reported":"2025-10-05T08:38:15.024629+00:00","last_updated":"2025-10-05T08:38:15.024629+00:00","context":{"id":"01K6SRB07FD3FDGA36KSR213JX","parent_id":null,"user_id":"704c275e343641859a019f45b50994b9"}},
+      "state": {"entity_id":"climate.living_room_thermostat","state":"heat","attributes":{"hvac_modes":["heat","off"],"min_temp":10.0,"max_temp":25.0,"target_temp_step":0.1,"current_temperature":22.6,"temperature":21.0,"hvac_action":"idle","friendly_name":"Living Room Thermostat","supported_features":385},"last_changed":"2025-10-05T12:38:25.494385+00:00","last_reported":"2025-10-05T13:08:08.704232+00:00","last_updated":"2025-10-05T13:08:08.704232+00:00","context":{"id":"01K6T7S6BY6RPCX532C7VGCEE5","parent_id":null,"user_id":"704c275e343641859a019f45b50994b9"}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.ps_iphone","state":"not_home","attributes":{"source_type":"gps","battery_level":55,"latitude":47.1573572757111,"longitude":27.618909190516444,"gps_accuracy":11,"altitude":74.4186957938157,"vertical_accuracy":30,"friendly_name":"p’s iPhone"},"last_changed":"2025-10-05T08:36:57.111610+00:00","last_reported":"2025-10-05T08:36:57.111610+00:00","last_updated":"2025-10-05T08:36:57.111610+00:00","context":{"id":"01K6SR8M4QPD7XFV0XBVVZFJFM","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.ps_iphone","state":"not_home","attributes":{"source_type":"gps","battery_level":40,"latitude":47.157462946870055,"longitude":27.618963885760298,"gps_accuracy":18,"altitude":72.43466746213362,"vertical_accuracy":30,"friendly_name":"p’s iPhone"},"last_changed":"2025-10-05T13:08:04.846517+00:00","last_reported":"2025-10-05T13:08:04.846517+00:00","last_updated":"2025-10-05T13:08:04.846517+00:00","context":{"id":"01K6T7S2KETB4D4H67R45SQ58J","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_battery_level","state":"55","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-50","friendly_name":"p’s iPhone Battery Level"},"last_changed":"2025-10-05T08:36:57.114745+00:00","last_reported":"2025-10-05T08:36:57.114745+00:00","last_updated":"2025-10-05T08:36:57.114745+00:00","context":{"id":"01K6SR8M4T3R8PEMR1BJE7YC9H","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_battery_level","state":"40","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-40","friendly_name":"p’s iPhone Battery Level"},"last_changed":"2025-10-05T12:38:30.248324+00:00","last_reported":"2025-10-05T12:38:30.248324+00:00","last_updated":"2025-10-05T12:38:30.248324+00:00","context":{"id":"01K6T62XK8DSX3QVRBZ64BP2GV","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 55,
+        "native_value": 40,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-50","friendly_name":"p’s iPhone Battery State"},"last_changed":"2025-10-05T08:36:57.115972+00:00","last_reported":"2025-10-05T08:36:57.115972+00:00","last_updated":"2025-10-05T08:36:57.115972+00:00","context":{"id":"01K6SR8M4VSE0DKWAHZ9ABAC27","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-40","friendly_name":"p’s iPhone Battery State"},"last_changed":"2025-10-05T12:38:30.249534+00:00","last_reported":"2025-10-05T12:38:30.249534+00:00","last_updated":"2025-10-05T12:38:30.249534+00:00","context":{"id":"01K6T62XK939WPEH4MGMRNQ5GD","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_bssid","state":"1c:61:b4:79:1f:7","attributes":{"icon":"mdi:wifi-star","friendly_name":"p’s iPhone BSSID"},"last_changed":"2025-10-05T08:36:57.116897+00:00","last_reported":"2025-10-05T08:36:57.116897+00:00","last_updated":"2025-10-05T08:36:57.116897+00:00","context":{"id":"01K6SR8M4WAAW69KECJPF73FHN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_bssid","state":"1c:61:b4:79:1e:3","attributes":{"icon":"mdi:wifi-star","friendly_name":"p’s iPhone BSSID"},"last_changed":"2025-10-05T12:38:30.250528+00:00","last_reported":"2025-10-05T12:38:30.250528+00:00","last_updated":"2025-10-05T12:38:30.250528+00:00","context":{"id":"01K6T62XKAB9KYK1FA3EX277SM","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "1c:61:b4:79:1f:7",
+        "native_value": "1c:61:b4:79:1e:3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_connection_type","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone Connection Type"},"last_changed":"2025-10-05T08:36:57.118080+00:00","last_reported":"2025-10-05T08:36:57.118080+00:00","last_updated":"2025-10-05T08:36:57.118080+00:00","context":{"id":"01K6SR8M4YX6EV645TTE1TR6AR","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_connection_type","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone Connection Type"},"last_changed":"2025-10-05T12:38:30.252766+00:00","last_reported":"2025-10-05T12:38:30.252766+00:00","last_updated":"2025-10-05T12:38:30.252766+00:00","context":{"id":"01K6T62XKC3QNWG5EWY94MNRW3","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_ssid","state":"meshy wifi","attributes":{"icon":"mdi:wifi","friendly_name":"p’s iPhone SSID"},"last_changed":"2025-10-05T08:36:57.119085+00:00","last_reported":"2025-10-05T08:36:57.119085+00:00","last_updated":"2025-10-05T08:36:57.119085+00:00","context":{"id":"01K6SR8M4Z245Z3Z4XHT97NCJ3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_ssid","state":"meshy wifi","attributes":{"icon":"mdi:wifi","friendly_name":"p’s iPhone SSID"},"last_changed":"2025-10-05T12:38:30.253870+00:00","last_reported":"2025-10-05T12:38:30.253870+00:00","last_updated":"2025-10-05T12:38:30.253870+00:00","context":{"id":"01K6T62XKD55FP7JK3AW8214TN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "meshy wifi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_sim_1","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone SIM 1"},"last_changed":"2025-10-05T08:36:57.119901+00:00","last_reported":"2025-10-05T08:36:57.119901+00:00","last_updated":"2025-10-05T08:36:57.119901+00:00","context":{"id":"01K6SR8M4Z0W0VCSP29790GFMX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_sim_1","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone SIM 1"},"last_changed":"2025-10-05T12:38:30.254777+00:00","last_reported":"2025-10-05T12:38:30.254777+00:00","last_updated":"2025-10-05T12:38:30.254777+00:00","context":{"id":"01K6T62XKE2X8TW65V8S1V85E4","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_storage","state":"unavailable","attributes":{"unit_of_measurement":"% available","icon":"mdi:dots-square","friendly_name":"p’s iPhone Storage"},"last_changed":"2025-10-05T08:36:57.120654+00:00","last_reported":"2025-10-05T08:36:57.120654+00:00","last_updated":"2025-10-05T08:36:57.120654+00:00","context":{"id":"01K6SR8M50E60AXDBT16ZTV1CK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_storage","state":"unavailable","attributes":{"unit_of_measurement":"% available","icon":"mdi:dots-square","friendly_name":"p’s iPhone Storage"},"last_changed":"2025-10-05T12:38:30.255639+00:00","last_reported":"2025-10-05T12:38:30.255639+00:00","last_updated":"2025-10-05T12:38:30.255639+00:00","context":{"id":"01K6T62XKFHE6JT5J2WTRFT712","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_sim_2","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone SIM 2"},"last_changed":"2025-10-05T08:36:57.121416+00:00","last_reported":"2025-10-05T08:36:57.121416+00:00","last_updated":"2025-10-05T08:36:57.121416+00:00","context":{"id":"01K6SR8M51NJH7YF9YFPCWFZFW","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_sim_2","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone SIM 2"},"last_changed":"2025-10-05T12:38:30.256407+00:00","last_reported":"2025-10-05T12:38:30.256407+00:00","last_updated":"2025-10-05T12:38:30.256407+00:00","context":{"id":"01K6T62XKGHHCZ4PEWS9GJF3RE","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_geocoded_location","state":"Strada Vasile Lupu, 112A\n700344 Iaşi\nRomania","attributes":{"Administrative Area":"Iași","Areas Of Interest":"N/A","Country":"Romania","Inland Water":"N/A","ISO Country Code":"RO","Locality":"Iaşi","Location":[47.1573572757111,27.618909190516444],"Name":"Strada Vasile Lupu, 112A","Ocean":"N/A","Postal Code":"700344","Sub Administrative Area":"N/A","Sub Locality":"N/A","Sub Thoroughfare":"112A","Thoroughfare":"Strada Vasile Lupu","Time Zone":"Europe/Bucharest","Zones":[],"icon":"mdi:map","friendly_name":"p’s iPhone Geocoded Location"},"last_changed":"2025-10-05T08:36:57.122307+00:00","last_reported":"2025-10-05T08:36:57.122307+00:00","last_updated":"2025-10-05T08:36:57.122307+00:00","context":{"id":"01K6SR8M52HN4JMEQYEWMBB9K5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_geocoded_location","state":"Strada Vasile Lupu, 118\n700344 Iaşi\nRomania","attributes":{"Administrative Area":"Iași","Areas Of Interest":"N/A","Country":"Romania","Inland Water":"N/A","ISO Country Code":"RO","Locality":"Iaşi","Location":[47.157462946870055,27.618963885760298],"Name":"Strada Vasile Lupu, 118","Ocean":"N/A","Postal Code":"700344","Sub Administrative Area":"N/A","Sub Locality":"N/A","Sub Thoroughfare":"118","Thoroughfare":"Strada Vasile Lupu","Time Zone":"Europe/Bucharest","Zones":[],"icon":"mdi:map","friendly_name":"p’s iPhone Geocoded Location"},"last_changed":"2025-10-05T13:08:02.462072+00:00","last_reported":"2025-10-05T13:08:04.914806+00:00","last_updated":"2025-10-05T13:08:04.914806+00:00","context":{"id":"01K6T7S2NJN0N9P4HP4QBWYZQY","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "Strada Vasile Lupu, 112A\n700344 Iaşi\nRomania",
+        "native_value": "Strada Vasile Lupu, 118\n700344 Iaşi\nRomania",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_last_update_trigger","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone Last Update Trigger"},"last_changed":"2025-10-05T08:36:57.123574+00:00","last_reported":"2025-10-05T08:36:57.123574+00:00","last_updated":"2025-10-05T08:36:57.123574+00:00","context":{"id":"01K6SR8M5345Z8NQZTW0GY7A63","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_last_update_trigger","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone Last Update Trigger"},"last_changed":"2025-10-05T12:38:30.258621+00:00","last_reported":"2025-10-05T12:38:30.258621+00:00","last_updated":"2025-10-05T12:38:30.258621+00:00","context":{"id":"01K6T62XKJF4KVJ9QN6RYH3NPS","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_app_version","state":"2025.9.3","attributes":{"icon":"mdi:cellphone","friendly_name":"p’s iPhone App Version"},"last_changed":"2025-10-05T08:36:57.124605+00:00","last_reported":"2025-10-05T08:36:57.124605+00:00","last_updated":"2025-10-05T08:36:57.124605+00:00","context":{"id":"01K6SR8M54E3ST2T608214WHW7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_app_version","state":"2025.9.3","attributes":{"icon":"mdi:cellphone","friendly_name":"p’s iPhone App Version"},"last_changed":"2025-10-05T12:38:30.259591+00:00","last_reported":"2025-10-05T12:38:30.259591+00:00","last_updated":"2025-10-05T12:38:30.259591+00:00","context":{"id":"01K6T62XKKVYRHNEECRFWGZNK7","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "2025.9.3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"p’s iPhone Location permission"},"last_changed":"2025-10-05T08:36:57.125443+00:00","last_reported":"2025-10-05T08:36:57.125443+00:00","last_updated":"2025-10-05T08:36:57.125443+00:00","context":{"id":"01K6SR8M55MR1H8NEWV3NPP5XX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"p’s iPhone Location permission"},"last_changed":"2025-10-05T12:38:30.260457+00:00","last_reported":"2025-10-05T12:38:30.260457+00:00","last_updated":"2025-10-05T12:38:30.260457+00:00","context":{"id":"01K6T62XKMD2SD9K3VDBY218RD","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Authorized Always",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_audio_output","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone Audio Output"},"last_changed":"2025-10-05T08:36:57.126151+00:00","last_reported":"2025-10-05T08:36:57.126151+00:00","last_updated":"2025-10-05T08:36:57.126151+00:00","context":{"id":"01K6SR8M56ZV7FK5VM9VZKFN93","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_audio_output","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone Audio Output"},"last_changed":"2025-10-05T12:38:30.261232+00:00","last_reported":"2025-10-05T12:38:30.261232+00:00","last_updated":"2025-10-05T12:38:30.261232+00:00","context":{"id":"01K6T62XKN9ZJ8MS6QYN9P5Q37","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"device_tracker.ps_iphone_remote","state":"not_home","attributes":{"source_type":"gps","battery_level":55,"latitude":47.1573572757111,"longitude":27.618909190516444,"gps_accuracy":11,"altitude":74.4186957938157,"vertical_accuracy":30,"friendly_name":"p’s iPhone remote"},"last_changed":"2025-10-05T08:36:57.131634+00:00","last_reported":"2025-10-05T08:36:57.131634+00:00","last_updated":"2025-10-05T08:36:57.131634+00:00","context":{"id":"01K6SR8M5BWGPZEJF7SRVYAVN5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.ps_iphone_remote","state":"not_home","attributes":{"source_type":"gps","battery_level":40,"latitude":47.157462946870055,"longitude":27.618963885760298,"gps_accuracy":18,"altitude":72.43466746213362,"vertical_accuracy":30,"friendly_name":"p’s iPhone remote"},"last_changed":"2025-10-05T13:08:05.109586+00:00","last_reported":"2025-10-05T13:08:05.109586+00:00","last_updated":"2025-10-05T13:08:05.109586+00:00","context":{"id":"01K6T7S2VNFMP0VR9Y4NB1ZVCT","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_ssid","state":"meshy wifi","attributes":{"icon":"mdi:wifi","friendly_name":"p’s iPhone remote SSID"},"last_changed":"2025-10-05T08:36:57.136843+00:00","last_reported":"2025-10-05T08:36:57.136843+00:00","last_updated":"2025-10-05T08:36:57.136843+00:00","context":{"id":"01K6SR8M5GRJFRCXXYCC3C3PG2","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_ssid","state":"meshy wifi","attributes":{"icon":"mdi:wifi","friendly_name":"p’s iPhone remote SSID"},"last_changed":"2025-10-05T12:38:30.267892+00:00","last_reported":"2025-10-05T12:38:30.267892+00:00","last_updated":"2025-10-05T12:38:30.267892+00:00","context":{"id":"01K6T62XKV94GG1V54JJN2B2SA","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "meshy wifi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_storage","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Storage"},"last_changed":"2025-10-05T08:36:57.137855+00:00","last_reported":"2025-10-05T08:36:57.137855+00:00","last_updated":"2025-10-05T08:36:57.137855+00:00","context":{"id":"01K6SR8M5HQ77MA6B16TPTXKTH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_storage","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Storage"},"last_changed":"2025-10-05T12:38:30.269195+00:00","last_reported":"2025-10-05T12:38:30.269195+00:00","last_updated":"2025-10-05T12:38:30.269195+00:00","context":{"id":"01K6T62XKX3A2C1D7M7FE0A7DP","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-50","friendly_name":"p’s iPhone remote Battery State"},"last_changed":"2025-10-05T08:36:57.138803+00:00","last_reported":"2025-10-05T08:36:57.138803+00:00","last_updated":"2025-10-05T08:36:57.138803+00:00","context":{"id":"01K6SR8M5J2TCR9BJYXYFF5ZVW","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-40","friendly_name":"p’s iPhone remote Battery State"},"last_changed":"2025-10-05T12:38:30.270304+00:00","last_reported":"2025-10-05T12:38:30.270304+00:00","last_updated":"2025-10-05T12:38:30.270304+00:00","context":{"id":"01K6T62XKYA3EKT6PH1265WWBH","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_sim_2","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote SIM 2"},"last_changed":"2025-10-05T08:36:57.139693+00:00","last_reported":"2025-10-05T08:36:57.139693+00:00","last_updated":"2025-10-05T08:36:57.139693+00:00","context":{"id":"01K6SR8M5KS4NTEYEZMMAD0SX3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_sim_2","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote SIM 2"},"last_changed":"2025-10-05T12:38:30.271163+00:00","last_reported":"2025-10-05T12:38:30.271163+00:00","last_updated":"2025-10-05T12:38:30.271163+00:00","context":{"id":"01K6T62XKZHDK2F3FDWFR2D9HQ","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_sim_1","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote SIM 1"},"last_changed":"2025-10-05T08:36:57.140678+00:00","last_reported":"2025-10-05T08:36:57.140678+00:00","last_updated":"2025-10-05T08:36:57.140678+00:00","context":{"id":"01K6SR8M5MB6GR4BHK32304NMN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_sim_1","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote SIM 1"},"last_changed":"2025-10-05T12:38:30.272061+00:00","last_reported":"2025-10-05T12:38:30.272061+00:00","last_updated":"2025-10-05T12:38:30.272061+00:00","context":{"id":"01K6T62XM0QCGQTHNTE2DWT3S1","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_bssid","state":"1c:61:b4:79:1f:7","attributes":{"icon":"mdi:wifi-star","friendly_name":"p’s iPhone remote BSSID"},"last_changed":"2025-10-05T08:36:57.141620+00:00","last_reported":"2025-10-05T08:36:57.141620+00:00","last_updated":"2025-10-05T08:36:57.141620+00:00","context":{"id":"01K6SR8M5N9XYYDT081WHVAE19","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_bssid","state":"1c:61:b4:79:1e:3","attributes":{"icon":"mdi:wifi-star","friendly_name":"p’s iPhone remote BSSID"},"last_changed":"2025-10-05T12:38:30.273341+00:00","last_reported":"2025-10-05T12:38:30.273341+00:00","last_updated":"2025-10-05T12:38:30.273341+00:00","context":{"id":"01K6T62XM1FTQZYK3VV6GF8R4D","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "1c:61:b4:79:1f:7",
+        "native_value": "1c:61:b4:79:1e:3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_connection_type","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Connection Type"},"last_changed":"2025-10-05T08:36:57.142555+00:00","last_reported":"2025-10-05T08:36:57.142555+00:00","last_updated":"2025-10-05T08:36:57.142555+00:00","context":{"id":"01K6SR8M5PHA6R0FFRAS5FQ977","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_connection_type","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Connection Type"},"last_changed":"2025-10-05T12:38:30.274827+00:00","last_reported":"2025-10-05T12:38:30.274827+00:00","last_updated":"2025-10-05T12:38:30.274827+00:00","context":{"id":"01K6T62XM2Q66K9KMP05GPWQ8D","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_battery_level","state":"55","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-50","friendly_name":"p’s iPhone remote Battery Level"},"last_changed":"2025-10-05T08:36:57.143538+00:00","last_reported":"2025-10-05T08:36:57.143538+00:00","last_updated":"2025-10-05T08:36:57.143538+00:00","context":{"id":"01K6SR8M5QX9DFHVCBXGTR3VHF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_battery_level","state":"40","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-40","friendly_name":"p’s iPhone remote Battery Level"},"last_changed":"2025-10-05T12:38:30.275950+00:00","last_reported":"2025-10-05T12:38:30.275950+00:00","last_updated":"2025-10-05T12:38:30.275950+00:00","context":{"id":"01K6T62XM3G53QZN589HSHGME1","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": 55,
+        "native_value": 40,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"p’s iPhone remote Location permission"},"last_changed":"2025-10-05T08:36:57.144403+00:00","last_reported":"2025-10-05T08:36:57.144403+00:00","last_updated":"2025-10-05T08:36:57.144403+00:00","context":{"id":"01K6SR8M5RKX6AQ0Y6RV1D21YG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"p’s iPhone remote Location permission"},"last_changed":"2025-10-05T12:38:30.276859+00:00","last_reported":"2025-10-05T12:38:30.276859+00:00","last_updated":"2025-10-05T12:38:30.276859+00:00","context":{"id":"01K6T62XM44EYTF3N1EBA810KG","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Authorized Always",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_last_update_trigger","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Last Update Trigger"},"last_changed":"2025-10-05T08:36:57.145188+00:00","last_reported":"2025-10-05T08:36:57.145188+00:00","last_updated":"2025-10-05T08:36:57.145188+00:00","context":{"id":"01K6SR8M5S8AYSE4K2ET6141QF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_last_update_trigger","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Last Update Trigger"},"last_changed":"2025-10-05T12:38:30.277687+00:00","last_reported":"2025-10-05T12:38:30.277687+00:00","last_updated":"2025-10-05T12:38:30.277687+00:00","context":{"id":"01K6T62XM5Q7AYEPZNCJCEJY1S","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_app_version","state":"2025.9.3","attributes":{"icon":"mdi:cellphone","friendly_name":"p’s iPhone remote App Version"},"last_changed":"2025-10-05T08:36:57.146096+00:00","last_reported":"2025-10-05T08:36:57.146096+00:00","last_updated":"2025-10-05T08:36:57.146096+00:00","context":{"id":"01K6SR8M5TXEFZJHZ97ZAE6S8X","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_app_version","state":"2025.9.3","attributes":{"icon":"mdi:cellphone","friendly_name":"p’s iPhone remote App Version"},"last_changed":"2025-10-05T12:38:30.278542+00:00","last_reported":"2025-10-05T12:38:30.278542+00:00","last_updated":"2025-10-05T12:38:30.278542+00:00","context":{"id":"01K6T62XM6KH59E2KMHA2GQ8AX","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "2025.9.3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_geocoded_location","state":"Strada Vasile Lupu, 112A\n700344 Iaşi\nRomania","attributes":{"Administrative Area":"Iași","Areas Of Interest":"N/A","Country":"Romania","Inland Water":"N/A","ISO Country Code":"RO","Locality":"Iaşi","Location":[47.1573572757111,27.618909190516444],"Name":"Strada Vasile Lupu, 112A","Ocean":"N/A","Postal Code":"700344","Sub Administrative Area":"N/A","Sub Locality":"N/A","Sub Thoroughfare":"112A","Thoroughfare":"Strada Vasile Lupu","Time Zone":"Europe/Bucharest","Zones":[],"icon":"mdi:map","friendly_name":"p’s iPhone remote Geocoded Location"},"last_changed":"2025-10-05T08:36:57.146995+00:00","last_reported":"2025-10-05T08:36:57.146995+00:00","last_updated":"2025-10-05T08:36:57.146995+00:00","context":{"id":"01K6SR8M5TMBXFMZ0Z9APZNGRG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_geocoded_location","state":"Strada Vasile Lupu, 118\n700344 Iaşi\nRomania","attributes":{"Administrative Area":"Iași","Areas Of Interest":"N/A","Country":"Romania","Inland Water":"N/A","ISO Country Code":"RO","Locality":"Iaşi","Location":[47.15746289376206,27.618963458329937],"Name":"Strada Vasile Lupu, 118","Ocean":"N/A","Postal Code":"700344","Sub Administrative Area":"N/A","Sub Locality":"N/A","Sub Thoroughfare":"118","Thoroughfare":"Strada Vasile Lupu","Time Zone":"Europe/Bucharest","Zones":[],"icon":"mdi:map","friendly_name":"p’s iPhone remote Geocoded Location"},"last_changed":"2025-10-05T13:08:02.772026+00:00","last_reported":"2025-10-05T13:08:02.772026+00:00","last_updated":"2025-10-05T13:08:02.772026+00:00","context":{"id":"01K6T7S0JMGR5ACNDA7JPVXN0Z","parent_id":null,"user_id":null}},
       "extra_data": {
-        "native_value": "Strada Vasile Lupu, 112A\n700344 Iaşi\nRomania",
+        "native_value": "Strada Vasile Lupu, 118\n700344 Iaşi\nRomania",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.ps_iphone_remote_audio_output","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Audio Output"},"last_changed":"2025-10-05T08:36:57.147765+00:00","last_reported":"2025-10-05T08:36:57.147765+00:00","last_updated":"2025-10-05T08:36:57.147765+00:00","context":{"id":"01K6SR8M5VY3RYQ23K4VSWD3Q1","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.ps_iphone_remote_audio_output","state":"unavailable","attributes":{"icon":"mdi:dots-square","friendly_name":"p’s iPhone remote Audio Output"},"last_changed":"2025-10-05T12:38:30.280679+00:00","last_reported":"2025-10-05T12:38:30.280679+00:00","last_updated":"2025-10-05T12:38:30.280679+00:00","context":{"id":"01K6T62XM8SASBBP462F1205C8","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "unavailable",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-10-05T08:36:57.190322+00:00","last_reported":"2025-10-05T08:36:57.190322+00:00","last_updated":"2025-10-05T08:36:57.190322+00:00","context":{"id":"01K6SR8M76WZVE93ASBV0FFRGG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-10-05T12:38:30.412356+00:00","last_reported":"2025-10-05T12:38:30.412356+00:00","last_updated":"2025-10-05T12:38:30.412356+00:00","context":{"id":"01K6T62XRCXV3YQ4AQ1RETZ9TY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"automation.boiler_on","state":"on","attributes":{"last_triggered":"2025-10-05T08:38:32.139344+00:00","mode":"single","current":0,"friendly_name":"Boiler ON"},"last_changed":"2025-10-05T08:37:01.742371+00:00","last_reported":"2025-10-05T08:38:32.214314+00:00","last_updated":"2025-10-05T08:38:32.214314+00:00","context":{"id":"01K6SRBGYA60QWTSPCYQS4A3CW","parent_id":"01K6SRBGY7R6ZKZ7EYDJ0E49CS","user_id":null}},
+      "state": {"entity_id":"media_player.living_room_tv","state":"on","attributes":{"source_list":["AV1","AV2","Accessibility","Amazon Prime Video","Apple TV","Camera","Component","CuriosityStream","Device Connector","Google Maps","LG Content Store","LG Photo Editor","LiveTV","Netflix","Notifications","Scheduler","Screen Share","SmartShare","SteamLink","TV Guide","User Guide","Web Browser","YouTube"],"volume_level":0.0,"is_volume_muted":false,"source":"Apple TV","sound_output":"soundbar","assumed_state":true,"device_class":"tv","entity_picture":"/api/media_player_proxy/media_player.living_room_tv?token=e4053e9f1a173e3e4a88c3eb44fbb49fd846b50dc19eedb46a98d7389c5fb23a&cache=d7ee5e8c0c568074","friendly_name":"Living room TV","supported_features":24381},"last_changed":"2025-10-05T12:38:30.484729+00:00","last_reported":"2025-10-05T12:38:40.486319+00:00","last_updated":"2025-10-05T12:38:30.484729+00:00","context":{"id":"01K6T62XTMB25747V5S88HN83C","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"automation.boiler_off_after_min_on","state":"on","attributes":{"last_triggered":"2025-10-05T08:43:32.003251+00:00","mode":"single","current":0,"friendly_name":"Boiler OFF after min-on"},"last_changed":"2025-10-05T08:37:01.743834+00:00","last_reported":"2025-10-05T08:43:32.028438+00:00","last_updated":"2025-10-05T08:43:32.028438+00:00","context":{"id":"01K6SRMNS2PWMKJSN34VS2AX17","parent_id":"01K6SRMNS18N2CMGCJPK50Z22A","user_id":null}},
+      "state": {"entity_id":"button.diskstation_reboot","state":"unknown","attributes":{"device_class":"restart","friendly_name":"diskstation Reboot"},"last_changed":"2025-10-05T12:38:30.636547+00:00","last_reported":"2025-10-05T12:38:30.636547+00:00","last_updated":"2025-10-05T12:38:30.636547+00:00","context":{"id":"01K6T62XZC9D98FS52H3R5KJT0","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"automation.unlock_boiler_after_min_off","state":"on","attributes":{"last_triggered":"2025-10-05T08:48:32.001907+00:00","mode":"single","current":0,"friendly_name":"Unlock Boiler After Min Off"},"last_changed":"2025-10-05T08:37:01.744613+00:00","last_reported":"2025-10-05T08:48:32.003871+00:00","last_updated":"2025-10-05T08:48:32.003871+00:00","context":{"id":"01K6SRXTR1MFY51BX667VV83F8","parent_id":"01K6SRXTR17WWWBQJM6G0SM2M3","user_id":null}},
+      "state": {"entity_id":"button.diskstation_shutdown","state":"unknown","attributes":{"icon":"mdi:power","friendly_name":"diskstation Shutdown"},"last_changed":"2025-10-05T12:38:30.637287+00:00","last_reported":"2025-10-05T12:38:30.637287+00:00","last_updated":"2025-10-05T12:38:30.637287+00:00","context":{"id":"01K6T62XZDAP2QR66JDW88E0X5","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.controller_centrala_reboot","state":"unknown","attributes":{"device_class":"restart","friendly_name":"Boiler Control Switch Reboot"},"last_changed":"2025-10-05T08:37:02.194329+00:00","last_reported":"2025-10-05T08:37:02.194329+00:00","last_updated":"2025-10-05T08:37:02.194329+00:00","context":{"id":"01K6SR8S3JE1MTN9KG7DPY33RD","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.diskstation_dsm_update","state":"on","attributes":{"auto_update":false,"display_precision":0,"installed_version":"DSM 7.0.1-42218 Update 6","in_progress":false,"latest_version":"DSM 7.1.1-42962","release_summary":null,"release_url":"http://update.synology.com/autoupdate/whatsnew.php?model=DS116&update_version=42962","skipped_version":null,"title":"Synology DSM","update_percentage":null,"attribution":"Data provided by Synology","entity_picture":"https://brands.home-assistant.io/_/synology_dsm/icon.png","friendly_name":"diskstation DSM update","supported_features":0},"last_changed":"2025-10-05T12:38:30.675021+00:00","last_reported":"2025-10-05T12:38:30.675021+00:00","last_updated":"2025-10-05T12:38:30.675021+00:00","context":{"id":"01K6T62Y0K5M0RXEM8WP2A86FG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.controller_centrala_firmware","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.7.1","in_progress":false,"latest_version":"1.7.1","release_summary":null,"release_url":"https://shelly-api-docs.shelly.cloud/gen2/changelog/","skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/shelly/icon.png","friendly_name":"Boiler Control Switch Firmware","supported_features":5},"last_changed":"2025-10-05T08:37:02.248459+00:00","last_reported":"2025-10-05T08:37:02.248459+00:00","last_updated":"2025-10-05T08:37:02.248459+00:00","context":{"id":"01K6SR8S588JNSEKBKVMGTEJX8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.boiler_on","state":"on","attributes":{"last_triggered":"2025-10-05T08:38:32.139344+00:00","mode":"single","current":0,"friendly_name":"Boiler ON"},"last_changed":"2025-10-05T12:38:30.773046+00:00","last_reported":"2025-10-05T12:38:30.773046+00:00","last_updated":"2025-10-05T12:38:30.773046+00:00","context":{"id":"01K6T62Y3NVXH9AVJ00KQ16351","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.diskstation_reboot","state":"unknown","attributes":{"device_class":"restart","friendly_name":"diskstation Reboot"},"last_changed":"2025-10-05T08:37:02.394512+00:00","last_reported":"2025-10-05T08:37:02.394512+00:00","last_updated":"2025-10-05T08:37:02.394512+00:00","context":{"id":"01K6SR8S9T2RCZRGFTF05FBKT5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.boiler_off_after_min_on","state":"on","attributes":{"last_triggered":"2025-10-05T08:43:32.003251+00:00","mode":"single","current":0,"friendly_name":"Boiler OFF after min-on"},"last_changed":"2025-10-05T12:38:30.774482+00:00","last_reported":"2025-10-05T12:38:30.774482+00:00","last_updated":"2025-10-05T12:38:30.774482+00:00","context":{"id":"01K6T62Y3PM5AHSAD7JHRR80QY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.diskstation_shutdown","state":"unknown","attributes":{"icon":"mdi:power","friendly_name":"diskstation Shutdown"},"last_changed":"2025-10-05T08:37:02.398582+00:00","last_reported":"2025-10-05T08:37:02.398582+00:00","last_updated":"2025-10-05T08:37:02.398582+00:00","context":{"id":"01K6SR8S9YBGQRAWBS9G4W1PBQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.unlock_boiler_after_min_off","state":"on","attributes":{"last_triggered":"2025-10-05T08:48:32.001907+00:00","mode":"single","current":0,"friendly_name":"Unlock Boiler After Min Off"},"last_changed":"2025-10-05T12:38:30.775578+00:00","last_reported":"2025-10-05T12:38:30.775578+00:00","last_updated":"2025-10-05T12:38:30.775578+00:00","context":{"id":"01K6T62Y3QE0ZQB4KYZ030V3ZQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.diskstation_dsm_update","state":"on","attributes":{"auto_update":false,"display_precision":0,"installed_version":"DSM 7.0.1-42218 Update 6","in_progress":false,"latest_version":"DSM 7.1.1-42962","release_summary":null,"release_url":"http://update.synology.com/autoupdate/whatsnew.php?model=DS116&update_version=42962","skipped_version":null,"title":"Synology DSM","update_percentage":null,"attribution":"Data provided by Synology","entity_picture":"https://brands.home-assistant.io/_/synology_dsm/icon.png","friendly_name":"diskstation DSM update","supported_features":0},"last_changed":"2025-10-05T08:37:02.435750+00:00","last_reported":"2025-10-05T08:37:02.435750+00:00","last_updated":"2025-10-05T08:37:02.435750+00:00","context":{"id":"01K6SR8SB3G544M8Y9K8ZYWW8W","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.controller_centrala_reboot","state":"unknown","attributes":{"device_class":"restart","friendly_name":"Boiler Control Switch Reboot"},"last_changed":"2025-10-05T12:38:31.099002+00:00","last_reported":"2025-10-05T12:38:31.099002+00:00","last_updated":"2025-10-05T12:38:31.099002+00:00","context":{"id":"01K6T62YDVGMTYCZT83CDV0CPX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"media_player.living_room_tv","state":"on","attributes":{"source_list":["AV1","AV2","Accessibility","Amazon Prime Video","Apple TV","Camera","Component","CuriosityStream","Device Connector","Google Maps","LG Content Store","LG Photo Editor","LiveTV","Netflix","Notifications","Scheduler","Screen Share","SmartShare","SteamLink","TV Guide","User Guide","Web Browser","YouTube"],"volume_level":0.0,"is_volume_muted":false,"source":"Apple TV","sound_output":"soundbar","assumed_state":true,"device_class":"tv","entity_picture":"/api/media_player_proxy/media_player.living_room_tv?token=d523ce18337e14fb693c6c4c49f24a7e83f85388d234208d3094052b3298c9c7&cache=243c169ec084ad15","friendly_name":"Living room TV","supported_features":24381},"last_changed":"2025-10-05T08:53:05.195159+00:00","last_reported":"2025-10-05T08:53:12.600568+00:00","last_updated":"2025-10-05T08:53:05.195159+00:00","context":{"id":"01K6SS65HBMQ03X49NM5G86X14","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.controller_centrala_firmware","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.7.1","in_progress":false,"latest_version":"1.7.1","release_summary":null,"release_url":"https://shelly-api-docs.shelly.cloud/gen2/changelog/","skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/shelly/icon.png","friendly_name":"Boiler Control Switch Firmware","supported_features":5},"last_changed":"2025-10-05T12:38:31.181633+00:00","last_reported":"2025-10-05T12:38:31.181633+00:00","last_updated":"2025-10-05T12:38:31.181633+00:00","context":{"id":"01K6T62YGDY2MBGS7KJDT7SVAC","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.sufragerie_pan_right","state":"unavailable","attributes":{"friendly_name":"Sufragerie Pan right"},"last_changed":"2025-10-05T08:37:03.120332+00:00","last_reported":"2025-10-05T08:37:08.860970+00:00","last_updated":"2025-10-05T08:37:03.120332+00:00","context":{"id":"01K6SR8T0GKS2FNET16N1NXPEP","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.sufragerie_pan_right","state":"unavailable","attributes":{"friendly_name":"Sufragerie Pan right"},"last_changed":"2025-10-05T12:38:31.657076+00:00","last_reported":"2025-10-05T12:38:40.983027+00:00","last_updated":"2025-10-05T12:38:31.657076+00:00","context":{"id":"01K6T62YZ9HE7ASQ550852ENTY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.sufragerie_pan_left","state":"unavailable","attributes":{"friendly_name":"Sufragerie Pan left"},"last_changed":"2025-10-05T08:37:03.121284+00:00","last_reported":"2025-10-05T08:37:08.861112+00:00","last_updated":"2025-10-05T08:37:03.121284+00:00","context":{"id":"01K6SR8T0HQN0ZBNN0K0APNZCC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.sufragerie_pan_left","state":"unavailable","attributes":{"friendly_name":"Sufragerie Pan left"},"last_changed":"2025-10-05T12:38:31.658091+00:00","last_reported":"2025-10-05T12:38:40.983190+00:00","last_updated":"2025-10-05T12:38:31.658091+00:00","context":{"id":"01K6T62YZA0MSKAWTEB7HTM62M","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.sufragerie_tilt_up","state":"unavailable","attributes":{"friendly_name":"Sufragerie Tilt up"},"last_changed":"2025-10-05T08:37:03.122043+00:00","last_reported":"2025-10-05T08:37:08.861202+00:00","last_updated":"2025-10-05T08:37:03.122043+00:00","context":{"id":"01K6SR8T0JJ9J6WY30DTNG5A89","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.sufragerie_tilt_up","state":"unavailable","attributes":{"friendly_name":"Sufragerie Tilt up"},"last_changed":"2025-10-05T12:38:31.658963+00:00","last_reported":"2025-10-05T12:38:40.983289+00:00","last_updated":"2025-10-05T12:38:31.658963+00:00","context":{"id":"01K6T62YZAQP2ECACV3MS14QAQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.sufragerie_tilt_down","state":"unavailable","attributes":{"friendly_name":"Sufragerie Tilt down"},"last_changed":"2025-10-05T08:37:03.122926+00:00","last_reported":"2025-10-05T08:37:08.861284+00:00","last_updated":"2025-10-05T08:37:03.122926+00:00","context":{"id":"01K6SR8T0JFNCMFEXJRTP2B62K","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.sufragerie_tilt_down","state":"unavailable","attributes":{"friendly_name":"Sufragerie Tilt down"},"last_changed":"2025-10-05T12:38:31.660379+00:00","last_reported":"2025-10-05T12:38:40.983379+00:00","last_updated":"2025-10-05T12:38:31.660379+00:00","context":{"id":"01K6T62YZC9454MCHMEEC8DT9T","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.smart_hub_pair_new_device","state":"unknown","attributes":{"friendly_name":"Smart Hub Pair new device"},"last_changed":"2025-10-05T08:37:03.184540+00:00","last_reported":"2025-10-05T08:37:08.339524+00:00","last_updated":"2025-10-05T08:37:03.184540+00:00","context":{"id":"01K6SR8T2G44PKYS23YDWWN0KD","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.dormitor_pan_right","state":"unavailable","attributes":{"friendly_name":"Dormitor Pan right"},"last_changed":"2025-10-05T12:38:31.689517+00:00","last_reported":"2025-10-05T12:38:37.668861+00:00","last_updated":"2025-10-05T12:38:31.689517+00:00","context":{"id":"01K6T62Z09DAD414NDJPCYPCTE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.dormitor_pan_right","state":"unavailable","attributes":{"friendly_name":"Dormitor Pan right"},"last_changed":"2025-10-05T08:37:03.261364+00:00","last_reported":"2025-10-05T08:37:08.797220+00:00","last_updated":"2025-10-05T08:37:03.261364+00:00","context":{"id":"01K6SR8T4XMYDEA0EQT65F15B8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.dormitor_pan_left","state":"unavailable","attributes":{"friendly_name":"Dormitor Pan left"},"last_changed":"2025-10-05T12:38:31.690520+00:00","last_reported":"2025-10-05T12:38:37.669020+00:00","last_updated":"2025-10-05T12:38:31.690520+00:00","context":{"id":"01K6T62Z0AQ9KB473YJT4VQM5V","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.dormitor_pan_left","state":"unavailable","attributes":{"friendly_name":"Dormitor Pan left"},"last_changed":"2025-10-05T08:37:03.262330+00:00","last_reported":"2025-10-05T08:37:08.797370+00:00","last_updated":"2025-10-05T08:37:03.262330+00:00","context":{"id":"01K6SR8T4YBKV0NGG9J64WNGPC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.dormitor_tilt_up","state":"unavailable","attributes":{"friendly_name":"Dormitor Tilt up"},"last_changed":"2025-10-05T12:38:31.691370+00:00","last_reported":"2025-10-05T12:38:37.669111+00:00","last_updated":"2025-10-05T12:38:31.691370+00:00","context":{"id":"01K6T62Z0BYFXXW3EPZEGQ31HY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.dormitor_tilt_up","state":"unavailable","attributes":{"friendly_name":"Dormitor Tilt up"},"last_changed":"2025-10-05T08:37:03.263131+00:00","last_reported":"2025-10-05T08:37:08.797456+00:00","last_updated":"2025-10-05T08:37:03.263131+00:00","context":{"id":"01K6SR8T4Z9XHJNN5BMFCQ0ETN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.dormitor_tilt_down","state":"unavailable","attributes":{"friendly_name":"Dormitor Tilt down"},"last_changed":"2025-10-05T12:38:31.692423+00:00","last_reported":"2025-10-05T12:38:37.669200+00:00","last_updated":"2025-10-05T12:38:31.692423+00:00","context":{"id":"01K6T62Z0CDAB4XZYBY7VGM0B8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.dormitor_tilt_down","state":"unavailable","attributes":{"friendly_name":"Dormitor Tilt down"},"last_changed":"2025-10-05T08:37:03.263877+00:00","last_reported":"2025-10-05T08:37:08.797539+00:00","last_updated":"2025-10-05T08:37:03.263877+00:00","context":{"id":"01K6SR8T4Z34B8BX9QQAZ1GZ6J","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.balcon_pan_right","state":"unknown","attributes":{"friendly_name":"Balcon Pan right"},"last_changed":"2025-10-05T12:38:31.718367+00:00","last_reported":"2025-10-05T12:38:37.493323+00:00","last_updated":"2025-10-05T12:38:31.718367+00:00","context":{"id":"01K6T62Z163Y46P9NQ28HZ1451","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.balcon_pan_right","state":"unknown","attributes":{"friendly_name":"Balcon Pan right"},"last_changed":"2025-10-05T08:37:03.297185+00:00","last_reported":"2025-10-05T08:37:08.930771+00:00","last_updated":"2025-10-05T08:37:03.297185+00:00","context":{"id":"01K6SR8T61GSA1C0TYWNV0CPS7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.balcon_pan_left","state":"unknown","attributes":{"friendly_name":"Balcon Pan left"},"last_changed":"2025-10-05T12:38:31.719602+00:00","last_reported":"2025-10-05T12:38:37.493487+00:00","last_updated":"2025-10-05T12:38:31.719602+00:00","context":{"id":"01K6T62Z17BK581W0FGS1WE7J3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.balcon_pan_left","state":"unknown","attributes":{"friendly_name":"Balcon Pan left"},"last_changed":"2025-10-05T08:37:03.298207+00:00","last_reported":"2025-10-05T08:37:08.930917+00:00","last_updated":"2025-10-05T08:37:03.298207+00:00","context":{"id":"01K6SR8T62QRBZ11Y5PBGSMGYC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.balcon_tilt_up","state":"unknown","attributes":{"friendly_name":"Balcon Tilt up"},"last_changed":"2025-10-05T12:38:31.720486+00:00","last_reported":"2025-10-05T12:38:37.493583+00:00","last_updated":"2025-10-05T12:38:31.720486+00:00","context":{"id":"01K6T62Z18G1RAM2CM9FYGJ57D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.balcon_tilt_up","state":"unknown","attributes":{"friendly_name":"Balcon Tilt up"},"last_changed":"2025-10-05T08:37:03.299058+00:00","last_reported":"2025-10-05T08:37:08.931007+00:00","last_updated":"2025-10-05T08:37:03.299058+00:00","context":{"id":"01K6SR8T63MYJV77GESNVJCVS2","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.balcon_tilt_down","state":"unknown","attributes":{"friendly_name":"Balcon Tilt down"},"last_changed":"2025-10-05T12:38:31.721487+00:00","last_reported":"2025-10-05T12:38:37.493673+00:00","last_updated":"2025-10-05T12:38:31.721487+00:00","context":{"id":"01K6T62Z19S1FQY1K2210BJKYM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.balcon_tilt_down","state":"unknown","attributes":{"friendly_name":"Balcon Tilt down"},"last_changed":"2025-10-05T08:37:03.299860+00:00","last_reported":"2025-10-05T08:37:08.931092+00:00","last_updated":"2025-10-05T08:37:03.299860+00:00","context":{"id":"01K6SR8T6305YDNKX0W2CN6FJK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.smart_hub_pair_new_device","state":"unknown","attributes":{"friendly_name":"Smart Hub Pair new device"},"last_changed":"2025-10-05T12:38:31.779847+00:00","last_reported":"2025-10-05T12:38:37.584252+00:00","last_updated":"2025-10-05T12:38:31.779847+00:00","context":{"id":"01K6T62Z33W142W7RQT6Y216MR","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.child_radiator_identify","state":"2025-10-04T10:14:52.354056+00:00","attributes":{"device_class":"identify","friendly_name":"Child Room Radiator Identify"},"last_changed":"2025-10-05T08:37:13.048342+00:00","last_reported":"2025-10-05T08:37:13.048342+00:00","last_updated":"2025-10-05T08:37:13.048342+00:00","context":{"id":"01K6SR93PRCG00J55JPPNYDGWC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.child_radiator_identify","state":"2025-10-04T10:14:52.354056+00:00","attributes":{"device_class":"identify","friendly_name":"Child Room Radiator Identify"},"last_changed":"2025-10-05T12:38:41.583110+00:00","last_reported":"2025-10-05T12:38:41.583110+00:00","last_updated":"2025-10-05T12:38:41.583110+00:00","context":{"id":"01K6T638NFQY8B7WC1VH7SXBE5","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.living_room_radiator_1_identify","state":"2025-10-04T07:44:04.230551+00:00","attributes":{"device_class":"identify","friendly_name":"Living Room Radiator 1 Identify"},"last_changed":"2025-10-05T08:37:13.050517+00:00","last_reported":"2025-10-05T08:37:13.050517+00:00","last_updated":"2025-10-05T08:37:13.050517+00:00","context":{"id":"01K6SR93PT58NW64VF4HHA165B","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.living_room_radiator_1_identify","state":"2025-10-04T07:44:04.230551+00:00","attributes":{"device_class":"identify","friendly_name":"Living Room Radiator 1 Identify"},"last_changed":"2025-10-05T12:38:41.584679+00:00","last_reported":"2025-10-05T12:38:41.584679+00:00","last_updated":"2025-10-05T12:38:41.584679+00:00","context":{"id":"01K6T638NGM91BF0WVW23C066H","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.living_room_radiator_2_identify","state":"2025-10-04T07:44:15.196182+00:00","attributes":{"device_class":"identify","friendly_name":"Living Room Radiator 2 Identify"},"last_changed":"2025-10-05T08:37:13.051956+00:00","last_reported":"2025-10-05T08:37:13.051956+00:00","last_updated":"2025-10-05T08:37:13.051956+00:00","context":{"id":"01K6SR93PVHW1AAESTC3F816NK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.living_room_radiator_2_identify","state":"2025-10-04T07:44:15.196182+00:00","attributes":{"device_class":"identify","friendly_name":"Living Room Radiator 2 Identify"},"last_changed":"2025-10-05T12:38:41.586311+00:00","last_reported":"2025-10-05T12:38:41.586311+00:00","last_updated":"2025-10-05T12:38:41.586311+00:00","context":{"id":"01K6T638NJFPHRJFJ4HPCR86FK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.bedroom_radiator_identify","state":"2025-10-04T07:43:46.776240+00:00","attributes":{"device_class":"identify","friendly_name":"Bedroom Radiator Identify"},"last_changed":"2025-10-05T08:37:13.053557+00:00","last_reported":"2025-10-05T08:37:13.053557+00:00","last_updated":"2025-10-05T08:37:13.053557+00:00","context":{"id":"01K6SR93PXWNQ4S08G5P6EYX21","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.bedroom_radiator_identify","state":"2025-10-04T07:43:46.776240+00:00","attributes":{"device_class":"identify","friendly_name":"Bedroom Radiator Identify"},"last_changed":"2025-10-05T12:38:41.587727+00:00","last_reported":"2025-10-05T12:38:41.587727+00:00","last_updated":"2025-10-05T12:38:41.587727+00:00","context":{"id":"01K6T638NKZEX41JCJWTGTV6Q1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.sonoff_snzb_02d_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Living Room Sensor Identify"},"last_changed":"2025-10-05T08:37:13.055323+00:00","last_reported":"2025-10-05T08:37:13.055323+00:00","last_updated":"2025-10-05T08:37:13.055323+00:00","context":{"id":"01K6SR93PZV8B2PXSH0N9A1QRN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.sonoff_snzb_02d_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Living Room Sensor Identify"},"last_changed":"2025-10-05T12:38:41.589036+00:00","last_reported":"2025-10-05T12:38:41.589036+00:00","last_updated":"2025-10-05T12:38:41.589036+00:00","context":{"id":"01K6T638NN522WHA0QC2M8QJKE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.bedroom_sensor_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Bedroom Sensor Identify"},"last_changed":"2025-10-05T08:37:13.056819+00:00","last_reported":"2025-10-05T08:37:13.056819+00:00","last_updated":"2025-10-05T08:37:13.056819+00:00","context":{"id":"01K6SR93Q0Z6C5B1N0NZC53TNK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.bedroom_sensor_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Bedroom Sensor Identify"},"last_changed":"2025-10-05T12:38:41.590352+00:00","last_reported":"2025-10-05T12:38:41.590352+00:00","last_updated":"2025-10-05T12:38:41.590352+00:00","context":{"id":"01K6T638NP69ZB0N6797TCJXJD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"button.child_room_sensor_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Child Room Sensor Identify"},"last_changed":"2025-10-05T08:37:13.058195+00:00","last_reported":"2025-10-05T08:37:13.058195+00:00","last_updated":"2025-10-05T08:37:13.058195+00:00","context":{"id":"01K6SR93Q2018BJ8N00A2GYJNT","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"button.child_room_sensor_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Child Room Sensor Identify"},"last_changed":"2025-10-05T12:38:41.591674+00:00","last_reported":"2025-10-05T12:38:41.591674+00:00","last_updated":"2025-10-05T12:38:41.591674+00:00","context":{"id":"01K6T638NQP96KKDNJYBQFV68R","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.child_radiator_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":23.2,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Child Room Radiator Thermostat","supported_features":385},"last_changed":"2025-10-05T08:39:59.273472+00:00","last_reported":"2025-10-05T08:56:07.004129+00:00","last_updated":"2025-10-05T08:56:07.004129+00:00","context":{"id":"01K6SSBQ2W8BETYEABMZ2TD3Q8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"climate.child_radiator_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":22.2,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Child Room Radiator Thermostat","supported_features":385},"last_changed":"2025-10-05T12:38:41.595840+00:00","last_reported":"2025-10-05T12:40:45.623077+00:00","last_updated":"2025-10-05T12:40:45.623077+00:00","context":{"id":"01K6T671SQMVHH41EQNDPPJXWJ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.living_room_radiator_1_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":25.5,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Living Room Radiator 1 Thermostat","supported_features":385},"last_changed":"2025-10-05T08:37:13.065417+00:00","last_reported":"2025-10-05T08:47:40.969698+00:00","last_updated":"2025-10-05T08:47:40.969698+00:00","context":{"id":"01K6SRW8X9DRE36ERQ1NY76K0K","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"climate.living_room_radiator_1_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":23.2,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Living Room Radiator 1 Thermostat","supported_features":385},"last_changed":"2025-10-05T12:49:19.286357+00:00","last_reported":"2025-10-05T12:49:19.286357+00:00","last_updated":"2025-10-05T12:49:19.286357+00:00","context":{"id":"01K6T6PQDPTQ1J0RBGB3A33EPK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.living_room_radiator_2_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":24.6,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Living Room Radiator 2 Thermostat","supported_features":385},"last_changed":"2025-10-05T08:37:13.067595+00:00","last_reported":"2025-10-05T08:38:34.025009+00:00","last_updated":"2025-10-05T08:38:34.025009+00:00","context":{"id":"01K6SRBJS9BDQN66QVTP79Q275","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"climate.living_room_radiator_2_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":23.1,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Living Room Radiator 2 Thermostat","supported_features":385},"last_changed":"2025-10-05T12:38:41.600038+00:00","last_reported":"2025-10-05T12:42:03.372469+00:00","last_updated":"2025-10-05T12:42:03.372469+00:00","context":{"id":"01K6T69DQC658E1N5HT3HK2VM3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"climate.bedroom_radiator_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":23.3,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Bedroom Radiator Thermostat","supported_features":385},"last_changed":"2025-10-05T08:37:13.069594+00:00","last_reported":"2025-10-05T08:45:03.867141+00:00","last_updated":"2025-10-05T08:45:03.867141+00:00","context":{"id":"01K6SRQFFVYPC5XXH9DSBTMM8B","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"climate.bedroom_radiator_thermostat","state":"off","attributes":{"hvac_modes":["off","heat"],"min_temp":35.0,"max_temp":35.0,"current_temperature":22.8,"temperature":null,"hvac_action":"off","occupancy":1,"occupied_heating_setpoint":700,"system_mode":"[<SystemMode.Off: 0>]/off","friendly_name":"Bedroom Radiator Thermostat","supported_features":385},"last_changed":"2025-10-05T12:38:41.602088+00:00","last_reported":"2025-10-05T12:44:29.855410+00:00","last_updated":"2025-10-05T12:44:29.855410+00:00","context":{"id":"01K6T6DWRZHC4ZZJSN02YF3EMX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_radiator_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Max heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.073582+00:00","last_reported":"2025-10-05T08:37:13.073582+00:00","last_updated":"2025-10-05T08:37:13.073582+00:00","context":{"id":"01K6SR93QH1VZ8MN0GTVVRRF74","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_radiator_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Max heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.605940+00:00","last_reported":"2025-10-05T12:38:41.605940+00:00","last_updated":"2025-10-05T12:38:41.605940+00:00","context":{"id":"01K6T638P50QE42J6J67KKJSH3","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 35.0,
@@ -493,10 +493,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_radiator_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Min heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.075121+00:00","last_reported":"2025-10-05T08:37:13.075121+00:00","last_updated":"2025-10-05T08:37:13.075121+00:00","context":{"id":"01K6SR93QKAG93J43774RZAW72","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_radiator_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Min heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.607435+00:00","last_reported":"2025-10-05T12:38:41.607435+00:00","last_updated":"2025-10-05T12:38:41.607435+00:00","context":{"id":"01K6T638P7ST7X4ZV5JG5G6C73","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -504,10 +504,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_radiator_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Local temperature offset"},"last_changed":"2025-10-05T08:37:13.076574+00:00","last_reported":"2025-10-05T08:37:13.076574+00:00","last_updated":"2025-10-05T08:37:13.076574+00:00","context":{"id":"01K6SR93QME1849C60SQCBH0FK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_radiator_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Local temperature offset"},"last_changed":"2025-10-05T12:38:41.608865+00:00","last_reported":"2025-10-05T12:38:41.608865+00:00","last_updated":"2025-10-05T12:38:41.608865+00:00","context":{"id":"01K6T638P8R65KK7WJM2EXKVZC","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 12.7,
         "native_min_value": -12.8,
@@ -515,10 +515,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 0.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_radiator_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Frost protection temperature"},"last_changed":"2025-10-05T08:37:13.078073+00:00","last_reported":"2025-10-05T08:37:13.078073+00:00","last_updated":"2025-10-05T08:37:13.078073+00:00","context":{"id":"01K6SR93QPYNKMAH6K83KZ9TGK","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_radiator_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Frost protection temperature"},"last_changed":"2025-10-05T12:38:41.610260+00:00","last_reported":"2025-10-05T12:38:41.610260+00:00","last_updated":"2025-10-05T12:38:41.610260+00:00","context":{"id":"01K6T638PA40TZQNF0AQ4SBSK3","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -526,10 +526,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 7.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_radiator_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Temperature control accuracy"},"last_changed":"2025-10-05T08:37:13.080428+00:00","last_reported":"2025-10-05T08:37:13.080428+00:00","last_updated":"2025-10-05T08:37:13.080428+00:00","context":{"id":"01K6SR93QR93VY252ZDDBS05Q6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_radiator_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator Temperature control accuracy"},"last_changed":"2025-10-05T12:38:41.612709+00:00","last_reported":"2025-10-05T12:38:41.612709+00:00","last_updated":"2025-10-05T12:38:41.612709+00:00","context":{"id":"01K6T638PCCAY7H1KA1KEQ3B1W","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": -0.2,
         "native_min_value": -1.0,
@@ -537,10 +537,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": -1.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_radiator_external_temperature_sensor_value","state":"22.3","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator External temperature sensor value"},"last_changed":"2025-10-05T08:37:13.081877+00:00","last_reported":"2025-10-05T08:37:13.081877+00:00","last_updated":"2025-10-05T08:37:13.081877+00:00","context":{"id":"01K6SR93QSGPB35AZSTMF0TAQ3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_radiator_external_temperature_sensor_value","state":"22.3","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Radiator External temperature sensor value"},"last_changed":"2025-10-05T12:38:41.614306+00:00","last_reported":"2025-10-05T12:38:41.614306+00:00","last_updated":"2025-10-05T12:38:41.614306+00:00","context":{"id":"01K6T638PEPMGD8KM84WJ2JZQ8","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 99.9,
         "native_min_value": 0.0,
@@ -548,10 +548,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 22.3
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_1_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Max heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.083405+00:00","last_reported":"2025-10-05T08:37:13.083405+00:00","last_updated":"2025-10-05T08:37:13.083405+00:00","context":{"id":"01K6SR93QVGJQY7F5746DSAR3B","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_1_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Max heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.615665+00:00","last_reported":"2025-10-05T12:38:41.615665+00:00","last_updated":"2025-10-05T12:38:41.615665+00:00","context":{"id":"01K6T638PFGXBBTB3EXNJPTXWP","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 35.0,
@@ -559,10 +559,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_1_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Min heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.084788+00:00","last_reported":"2025-10-05T08:37:13.084788+00:00","last_updated":"2025-10-05T08:37:13.084788+00:00","context":{"id":"01K6SR93QWWWMGBK1FDC7GPY6X","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_1_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Min heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.617008+00:00","last_reported":"2025-10-05T12:38:41.617008+00:00","last_updated":"2025-10-05T12:38:41.617008+00:00","context":{"id":"01K6T638PH22HQQGVC6MB2JJ8X","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -570,10 +570,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_1_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Local temperature offset"},"last_changed":"2025-10-05T08:37:13.086108+00:00","last_reported":"2025-10-05T08:37:13.086108+00:00","last_updated":"2025-10-05T08:37:13.086108+00:00","context":{"id":"01K6SR93QYNJH753904AKB9S3F","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_1_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Local temperature offset"},"last_changed":"2025-10-05T12:38:41.618374+00:00","last_reported":"2025-10-05T12:38:41.618374+00:00","last_updated":"2025-10-05T12:38:41.618374+00:00","context":{"id":"01K6T638PJ47BRVWZ813ZGBVCN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 12.7,
         "native_min_value": -12.8,
@@ -581,10 +581,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 0.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_1_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Frost protection temperature"},"last_changed":"2025-10-05T08:37:13.089656+00:00","last_reported":"2025-10-05T08:37:13.089656+00:00","last_updated":"2025-10-05T08:37:13.089656+00:00","context":{"id":"01K6SR93R1C12QG1R6XYV2RH1S","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_1_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Frost protection temperature"},"last_changed":"2025-10-05T12:38:41.619723+00:00","last_reported":"2025-10-05T12:38:41.619723+00:00","last_updated":"2025-10-05T12:38:41.619723+00:00","context":{"id":"01K6T638PKDYPBJVDXXGRA5V4Y","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -592,10 +592,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 7.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_1_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Temperature control accuracy"},"last_changed":"2025-10-05T08:37:13.091988+00:00","last_reported":"2025-10-05T08:37:13.091988+00:00","last_updated":"2025-10-05T08:37:13.091988+00:00","context":{"id":"01K6SR93R3BVN82WGBH7PZV0H5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_1_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 Temperature control accuracy"},"last_changed":"2025-10-05T12:38:41.621966+00:00","last_reported":"2025-10-05T12:38:41.621966+00:00","last_updated":"2025-10-05T12:38:41.621966+00:00","context":{"id":"01K6T638PNFMXZH8W03C38MKAA","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": -0.2,
         "native_min_value": -1.0,
@@ -603,10 +603,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": -1.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_1_external_temperature_sensor_value","state":"23.5","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 External temperature sensor value"},"last_changed":"2025-10-05T08:37:13.093630+00:00","last_reported":"2025-10-05T08:37:13.093630+00:00","last_updated":"2025-10-05T08:37:13.093630+00:00","context":{"id":"01K6SR93R53WAKF6TYQ3C63WZ3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_1_external_temperature_sensor_value","state":"23.5","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 1 External temperature sensor value"},"last_changed":"2025-10-05T12:38:41.623468+00:00","last_reported":"2025-10-05T12:38:41.623468+00:00","last_updated":"2025-10-05T12:38:41.623468+00:00","context":{"id":"01K6T638PQWK3Y39E0F3K3G999","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 99.9,
         "native_min_value": 0.0,
@@ -614,10 +614,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 23.5
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_2_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Max heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.095065+00:00","last_reported":"2025-10-05T08:37:13.095065+00:00","last_updated":"2025-10-05T08:37:13.095065+00:00","context":{"id":"01K6SR93R781AZAJC50J6DQPQS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_2_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Max heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.624846+00:00","last_reported":"2025-10-05T12:38:41.624846+00:00","last_updated":"2025-10-05T12:38:41.624846+00:00","context":{"id":"01K6T638PRYBCTBQ01XSW098H0","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 35.0,
@@ -625,10 +625,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_2_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Min heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.096434+00:00","last_reported":"2025-10-05T08:37:13.096434+00:00","last_updated":"2025-10-05T08:37:13.096434+00:00","context":{"id":"01K6SR93R80P2K9JRR0X6V9QYA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_2_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Min heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.626135+00:00","last_reported":"2025-10-05T12:38:41.626135+00:00","last_updated":"2025-10-05T12:38:41.626135+00:00","context":{"id":"01K6T638PTWVBMA2JP5MW5X7FP","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -636,10 +636,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_2_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Local temperature offset"},"last_changed":"2025-10-05T08:37:13.097809+00:00","last_reported":"2025-10-05T08:37:13.097809+00:00","last_updated":"2025-10-05T08:37:13.097809+00:00","context":{"id":"01K6SR93R9DF2N097RZPP35TZA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_2_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Local temperature offset"},"last_changed":"2025-10-05T12:38:41.627462+00:00","last_reported":"2025-10-05T12:38:41.627462+00:00","last_updated":"2025-10-05T12:38:41.627462+00:00","context":{"id":"01K6T638PVDJ3W1JXVSJTF5H0Z","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 12.7,
         "native_min_value": -12.8,
@@ -647,10 +647,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 0.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_2_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Frost protection temperature"},"last_changed":"2025-10-05T08:37:13.099140+00:00","last_reported":"2025-10-05T08:37:13.099140+00:00","last_updated":"2025-10-05T08:37:13.099140+00:00","context":{"id":"01K6SR93RBYSS8FJ1K98DCCTSP","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_2_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Frost protection temperature"},"last_changed":"2025-10-05T12:38:41.628768+00:00","last_reported":"2025-10-05T12:38:41.628768+00:00","last_updated":"2025-10-05T12:38:41.628768+00:00","context":{"id":"01K6T638PWZY8QW8ZQYE51VDV4","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -658,10 +658,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 7.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_2_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Temperature control accuracy"},"last_changed":"2025-10-05T08:37:13.101304+00:00","last_reported":"2025-10-05T08:37:13.101304+00:00","last_updated":"2025-10-05T08:37:13.101304+00:00","context":{"id":"01K6SR93RDY29DTXSFGQ64H8MR","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_2_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 Temperature control accuracy"},"last_changed":"2025-10-05T12:38:41.631019+00:00","last_reported":"2025-10-05T12:38:41.631019+00:00","last_updated":"2025-10-05T12:38:41.631019+00:00","context":{"id":"01K6T638PZFKTEV04ZC8T05ST5","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": -0.2,
         "native_min_value": -1.0,
@@ -669,10 +669,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": -1.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.living_room_radiator_2_external_temperature_sensor_value","state":"23.9","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 External temperature sensor value"},"last_changed":"2025-10-05T08:37:13.102831+00:00","last_reported":"2025-10-05T08:37:13.102831+00:00","last_updated":"2025-10-05T08:37:13.102831+00:00","context":{"id":"01K6SR93RENB762CV1BAJPAYD7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.living_room_radiator_2_external_temperature_sensor_value","state":"23.9","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Radiator 2 External temperature sensor value"},"last_changed":"2025-10-05T12:38:41.634592+00:00","last_reported":"2025-10-05T12:38:41.634592+00:00","last_updated":"2025-10-05T12:38:41.634592+00:00","context":{"id":"01K6T638Q2YNB3ZH4TTQ5ZNQCN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 99.9,
         "native_min_value": 0.0,
@@ -680,10 +680,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 23.900000000000002
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_radiator_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Max heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.104255+00:00","last_reported":"2025-10-05T08:37:13.104255+00:00","last_updated":"2025-10-05T08:37:13.104255+00:00","context":{"id":"01K6SR93RG1MESX69E8MA2VS0J","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_radiator_max_heat_setpoint_limit","state":"35.0","attributes":{"min":35.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Max heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.636331+00:00","last_reported":"2025-10-05T12:38:41.636331+00:00","last_updated":"2025-10-05T12:38:41.636331+00:00","context":{"id":"01K6T638Q4Y4TSZWW4G9189RHD","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 35.0,
@@ -691,10 +691,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_radiator_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Min heat setpoint limit"},"last_changed":"2025-10-05T08:37:13.105579+00:00","last_reported":"2025-10-05T08:37:13.105579+00:00","last_updated":"2025-10-05T08:37:13.105579+00:00","context":{"id":"01K6SR93RH494MEEWX68EZS3TE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_radiator_min_heat_setpoint_limit","state":"35.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Min heat setpoint limit"},"last_changed":"2025-10-05T12:38:41.637751+00:00","last_reported":"2025-10-05T12:38:41.637751+00:00","last_updated":"2025-10-05T12:38:41.637751+00:00","context":{"id":"01K6T638Q5H2QQF9RPA8MXC4Q9","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -702,10 +702,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 35.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_radiator_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Local temperature offset"},"last_changed":"2025-10-05T08:37:13.106939+00:00","last_reported":"2025-10-05T08:37:13.106939+00:00","last_updated":"2025-10-05T08:37:13.106939+00:00","context":{"id":"01K6SR93RJ8E36DXGHRX4JVR8A","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_radiator_local_temperature_offset","state":"0.0","attributes":{"min":-12.8,"max":12.7,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Local temperature offset"},"last_changed":"2025-10-05T12:38:41.639068+00:00","last_reported":"2025-10-05T12:38:41.639068+00:00","last_updated":"2025-10-05T12:38:41.639068+00:00","context":{"id":"01K6T638Q7DHHZY97S4DAFR5DZ","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 12.7,
         "native_min_value": -12.8,
@@ -713,10 +713,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 0.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_radiator_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Frost protection temperature"},"last_changed":"2025-10-05T08:37:13.108313+00:00","last_reported":"2025-10-05T08:37:13.108313+00:00","last_updated":"2025-10-05T08:37:13.108313+00:00","context":{"id":"01K6SR93RMP9YKCPHZVCS96YS0","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_radiator_frost_protection_temperature","state":"7.0","attributes":{"min":4.0,"max":35.0,"step":0.5,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Frost protection temperature"},"last_changed":"2025-10-05T12:38:41.640433+00:00","last_reported":"2025-10-05T12:38:41.640433+00:00","last_updated":"2025-10-05T12:38:41.640433+00:00","context":{"id":"01K6T638Q8E3GTKDX1VHZ46YRN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 35.0,
         "native_min_value": 4.0,
@@ -724,10 +724,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 7.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_radiator_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Temperature control accuracy"},"last_changed":"2025-10-05T08:37:13.110491+00:00","last_reported":"2025-10-05T08:37:13.110491+00:00","last_updated":"2025-10-05T08:37:13.110491+00:00","context":{"id":"01K6SR93RPYXGGJPDQ6GCJ01BX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_radiator_temperature_control_accuracy","state":"-1.0","attributes":{"min":-1.0,"max":-0.2,"step":0.2,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator Temperature control accuracy"},"last_changed":"2025-10-05T12:38:41.642823+00:00","last_reported":"2025-10-05T12:38:41.642823+00:00","last_updated":"2025-10-05T12:38:41.642823+00:00","context":{"id":"01K6T638QAYJVJ5WEY6TSZR08F","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": -0.2,
         "native_min_value": -1.0,
@@ -735,10 +735,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": -1.0
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_radiator_external_temperature_sensor_value","state":"22.3","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator External temperature sensor value"},"last_changed":"2025-10-05T08:37:13.111826+00:00","last_reported":"2025-10-05T08:37:13.111826+00:00","last_updated":"2025-10-05T08:37:13.111826+00:00","context":{"id":"01K6SR93RQGW84SXHZ6QT0QE73","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_radiator_external_temperature_sensor_value","state":"22.3","attributes":{"min":0.0,"max":99.9,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Radiator External temperature sensor value"},"last_changed":"2025-10-05T12:38:41.644158+00:00","last_reported":"2025-10-05T12:38:41.644158+00:00","last_updated":"2025-10-05T12:38:41.644158+00:00","context":{"id":"01K6T638QCY0Y12G2MVFRBHQZ0","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 99.9,
         "native_min_value": 0.0,
@@ -746,10 +746,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": 22.3
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_temperature_min","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Sensor Comfort temperature min"},"last_changed":"2025-10-05T08:37:13.113449+00:00","last_reported":"2025-10-05T08:37:13.113449+00:00","last_updated":"2025-10-05T08:37:13.113449+00:00","context":{"id":"01K6SR93RSE0M84X9MTGT94R6N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_temperature_min","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Sensor Comfort temperature min"},"last_changed":"2025-10-05T12:38:41.645444+00:00","last_reported":"2025-10-05T12:38:41.645444+00:00","last_updated":"2025-10-05T12:38:41.645444+00:00","context":{"id":"01K6T638QD0DDYN04WA23P11V7","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 60,
         "native_min_value": -10,
@@ -757,10 +757,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_temperature_max","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Sensor Comfort temperature max"},"last_changed":"2025-10-05T08:37:13.114855+00:00","last_reported":"2025-10-05T08:37:13.114855+00:00","last_updated":"2025-10-05T08:37:13.114855+00:00","context":{"id":"01K6SR93RTV8600N2G3YFDHMM7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_temperature_max","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Sensor Comfort temperature max"},"last_changed":"2025-10-05T12:38:41.646797+00:00","last_reported":"2025-10-05T12:38:41.646797+00:00","last_updated":"2025-10-05T12:38:41.646797+00:00","context":{"id":"01K6T638QE6A10GHKXYP8Z3HJY","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 60,
         "native_min_value": -10,
@@ -768,10 +768,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_humidity_min","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Living Room Sensor Comfort humidity min"},"last_changed":"2025-10-05T08:37:13.116156+00:00","last_reported":"2025-10-05T08:37:13.116156+00:00","last_updated":"2025-10-05T08:37:13.116156+00:00","context":{"id":"01K6SR93RW4T97ZN1AGAMK50A0","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_humidity_min","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Living Room Sensor Comfort humidity min"},"last_changed":"2025-10-05T12:38:41.648055+00:00","last_reported":"2025-10-05T12:38:41.648055+00:00","last_updated":"2025-10-05T12:38:41.648055+00:00","context":{"id":"01K6T638QGTYYASD7BHECCRCW6","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 95,
         "native_min_value": 5,
@@ -779,10 +779,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_humidity_max","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Living Room Sensor Comfort humidity max"},"last_changed":"2025-10-05T08:37:13.117516+00:00","last_reported":"2025-10-05T08:37:13.117516+00:00","last_updated":"2025-10-05T08:37:13.117516+00:00","context":{"id":"01K6SR93RXE53KN47GCBY2V70V","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.sonoff_snzb_02d_comfort_humidity_max","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Living Room Sensor Comfort humidity max"},"last_changed":"2025-10-05T12:38:41.649320+00:00","last_reported":"2025-10-05T12:38:41.649320+00:00","last_updated":"2025-10-05T12:38:41.649320+00:00","context":{"id":"01K6T638QHNMZTQ629H59ZKFRW","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 95,
         "native_min_value": 5,
@@ -790,10 +790,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.sonoff_snzb_02d_temperature_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Sensor Temperature offset"},"last_changed":"2025-10-05T08:37:13.118798+00:00","last_reported":"2025-10-05T08:37:13.118798+00:00","last_updated":"2025-10-05T08:37:13.118798+00:00","context":{"id":"01K6SR93RYB9QSCX46Z6BXQDR6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.sonoff_snzb_02d_temperature_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Living Room Sensor Temperature offset"},"last_changed":"2025-10-05T12:38:41.650643+00:00","last_reported":"2025-10-05T12:38:41.650643+00:00","last_updated":"2025-10-05T12:38:41.650643+00:00","context":{"id":"01K6T638QJ2Q6614KD19FQP6W2","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 50,
         "native_min_value": -50,
@@ -801,10 +801,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.sonoff_snzb_02d_humidity_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Living Room Sensor Humidity offset"},"last_changed":"2025-10-05T08:37:13.120054+00:00","last_reported":"2025-10-05T08:37:13.120054+00:00","last_updated":"2025-10-05T08:37:13.120054+00:00","context":{"id":"01K6SR93S0TDNRMF51D28P96RH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.sonoff_snzb_02d_humidity_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Living Room Sensor Humidity offset"},"last_changed":"2025-10-05T12:38:41.651858+00:00","last_reported":"2025-10-05T12:38:41.651858+00:00","last_updated":"2025-10-05T12:38:41.651858+00:00","context":{"id":"01K6T638QKBG9F03MW5Q06BMXF","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 50,
         "native_min_value": -50,
@@ -812,10 +812,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_sensor_comfort_temperature_min","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Sensor Comfort temperature min"},"last_changed":"2025-10-05T08:37:13.121343+00:00","last_reported":"2025-10-05T08:37:13.121343+00:00","last_updated":"2025-10-05T08:37:13.121343+00:00","context":{"id":"01K6SR93S1SZWVZNQ6CENE0BGG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_sensor_comfort_temperature_min","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Sensor Comfort temperature min"},"last_changed":"2025-10-05T12:38:41.653277+00:00","last_reported":"2025-10-05T12:38:41.653277+00:00","last_updated":"2025-10-05T12:38:41.653277+00:00","context":{"id":"01K6T638QNERK0FT0J38WZZAV5","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 60,
         "native_min_value": -10,
@@ -823,10 +823,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_sensor_comfort_temperature_max","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Sensor Comfort temperature max"},"last_changed":"2025-10-05T08:37:13.122769+00:00","last_reported":"2025-10-05T08:37:13.122769+00:00","last_updated":"2025-10-05T08:37:13.122769+00:00","context":{"id":"01K6SR93S2XKKR24AR1JGQ7MY3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_sensor_comfort_temperature_max","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Sensor Comfort temperature max"},"last_changed":"2025-10-05T12:38:41.654564+00:00","last_reported":"2025-10-05T12:38:41.654564+00:00","last_updated":"2025-10-05T12:38:41.654564+00:00","context":{"id":"01K6T638QPDSCTS1PVS7R9Y112","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 60,
         "native_min_value": -10,
@@ -834,10 +834,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_sensor_comfort_humidity_min","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Bedroom Sensor Comfort humidity min"},"last_changed":"2025-10-05T08:37:13.124158+00:00","last_reported":"2025-10-05T08:37:13.124158+00:00","last_updated":"2025-10-05T08:37:13.124158+00:00","context":{"id":"01K6SR93S4WAXJABARGFVV4AWA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_sensor_comfort_humidity_min","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Bedroom Sensor Comfort humidity min"},"last_changed":"2025-10-05T12:38:41.655806+00:00","last_reported":"2025-10-05T12:38:41.655806+00:00","last_updated":"2025-10-05T12:38:41.655806+00:00","context":{"id":"01K6T638QQ02T3WZ5W5RAR9G85","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 95,
         "native_min_value": 5,
@@ -845,10 +845,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_sensor_comfort_humidity_max","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Bedroom Sensor Comfort humidity max"},"last_changed":"2025-10-05T08:37:13.125484+00:00","last_reported":"2025-10-05T08:37:13.125484+00:00","last_updated":"2025-10-05T08:37:13.125484+00:00","context":{"id":"01K6SR93S5XWQT843NH1GW5D45","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_sensor_comfort_humidity_max","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Bedroom Sensor Comfort humidity max"},"last_changed":"2025-10-05T12:38:41.657060+00:00","last_reported":"2025-10-05T12:38:41.657060+00:00","last_updated":"2025-10-05T12:38:41.657060+00:00","context":{"id":"01K6T638QSRRHVXP5H5WW6RXQW","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 95,
         "native_min_value": 5,
@@ -856,10 +856,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_sensor_temperature_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Sensor Temperature offset"},"last_changed":"2025-10-05T08:37:13.126740+00:00","last_reported":"2025-10-05T08:37:13.126740+00:00","last_updated":"2025-10-05T08:37:13.126740+00:00","context":{"id":"01K6SR93S6SVXF1A1P23XMAKTD","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_sensor_temperature_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Bedroom Sensor Temperature offset"},"last_changed":"2025-10-05T12:38:41.658375+00:00","last_reported":"2025-10-05T12:38:41.658375+00:00","last_updated":"2025-10-05T12:38:41.658375+00:00","context":{"id":"01K6T638QTVQJBEQS4ZV3KW4E8","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 50,
         "native_min_value": -50,
@@ -867,10 +867,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.bedroom_sensor_humidity_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Bedroom Sensor Humidity offset"},"last_changed":"2025-10-05T08:37:13.128067+00:00","last_reported":"2025-10-05T08:37:13.128067+00:00","last_updated":"2025-10-05T08:37:13.128067+00:00","context":{"id":"01K6SR93S8EHWKWTYX5BCMMADJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.bedroom_sensor_humidity_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Bedroom Sensor Humidity offset"},"last_changed":"2025-10-05T12:38:41.659651+00:00","last_reported":"2025-10-05T12:38:41.659651+00:00","last_updated":"2025-10-05T12:38:41.659651+00:00","context":{"id":"01K6T638QVB9PB4DXVGMX1ACRZ","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 50,
         "native_min_value": -50,
@@ -878,10 +878,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_room_sensor_comfort_temperature_min","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Sensor Comfort temperature min"},"last_changed":"2025-10-05T08:37:13.129402+00:00","last_reported":"2025-10-05T08:37:13.129402+00:00","last_updated":"2025-10-05T08:37:13.129402+00:00","context":{"id":"01K6SR93S94QTZ237KYD8GFFHY","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_room_sensor_comfort_temperature_min","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Sensor Comfort temperature min"},"last_changed":"2025-10-05T12:38:41.660957+00:00","last_reported":"2025-10-05T12:38:41.660957+00:00","last_updated":"2025-10-05T12:38:41.660957+00:00","context":{"id":"01K6T638QW23JBPDATH8YYB1EV","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 60,
         "native_min_value": -10,
@@ -889,10 +889,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_room_sensor_comfort_temperature_max","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Sensor Comfort temperature max"},"last_changed":"2025-10-05T08:37:13.130713+00:00","last_reported":"2025-10-05T08:37:13.130713+00:00","last_updated":"2025-10-05T08:37:13.130713+00:00","context":{"id":"01K6SR93SAYQRJRTMCWR6NMF8Q","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_room_sensor_comfort_temperature_max","state":"unknown","attributes":{"min":-10,"max":60,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Sensor Comfort temperature max"},"last_changed":"2025-10-05T12:38:41.662372+00:00","last_reported":"2025-10-05T12:38:41.662372+00:00","last_updated":"2025-10-05T12:38:41.662372+00:00","context":{"id":"01K6T638QYQWHC8BMA4JDH46PE","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 60,
         "native_min_value": -10,
@@ -900,10 +900,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_room_sensor_comfort_humidity_min","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Child Room Sensor Comfort humidity min"},"last_changed":"2025-10-05T08:37:13.132008+00:00","last_reported":"2025-10-05T08:37:13.132008+00:00","last_updated":"2025-10-05T08:37:13.132008+00:00","context":{"id":"01K6SR93SCGFYEJBC00W95F10E","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_room_sensor_comfort_humidity_min","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Child Room Sensor Comfort humidity min"},"last_changed":"2025-10-05T12:38:41.663736+00:00","last_reported":"2025-10-05T12:38:41.663736+00:00","last_updated":"2025-10-05T12:38:41.663736+00:00","context":{"id":"01K6T638QZ8PVY882EMN8PTA2A","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 95,
         "native_min_value": 5,
@@ -911,10 +911,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_room_sensor_comfort_humidity_max","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Child Room Sensor Comfort humidity max"},"last_changed":"2025-10-05T08:37:13.133542+00:00","last_reported":"2025-10-05T08:37:13.133542+00:00","last_updated":"2025-10-05T08:37:13.133542+00:00","context":{"id":"01K6SR93SDBQGTWQQ41JS1254M","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_room_sensor_comfort_humidity_max","state":"unknown","attributes":{"min":5,"max":95,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Child Room Sensor Comfort humidity max"},"last_changed":"2025-10-05T12:38:41.665038+00:00","last_reported":"2025-10-05T12:38:41.665038+00:00","last_updated":"2025-10-05T12:38:41.665038+00:00","context":{"id":"01K6T638R1SKVFH0YDSCPAR89W","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 95,
         "native_min_value": 5,
@@ -922,10 +922,10 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_room_sensor_temperature_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Sensor Temperature offset"},"last_changed":"2025-10-05T08:37:13.134898+00:00","last_reported":"2025-10-05T08:37:13.134898+00:00","last_updated":"2025-10-05T08:37:13.134898+00:00","context":{"id":"01K6SR93SEZXJ1K1H52JEDNM59","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_room_sensor_temperature_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"°C","friendly_name":"Child Room Sensor Temperature offset"},"last_changed":"2025-10-05T12:38:41.666340+00:00","last_reported":"2025-10-05T12:38:41.666340+00:00","last_updated":"2025-10-05T12:38:41.666340+00:00","context":{"id":"01K6T638R258948X0HFPDBYZEV","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 50,
         "native_min_value": -50,
@@ -933,10 +933,10 @@
         "native_unit_of_measurement": "°C",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"number.child_room_sensor_humidity_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Child Room Sensor Humidity offset"},"last_changed":"2025-10-05T08:37:13.136210+00:00","last_reported":"2025-10-05T08:37:13.136210+00:00","last_updated":"2025-10-05T08:37:13.136210+00:00","context":{"id":"01K6SR93SGHE5T69S0Z9RFNB5D","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.child_room_sensor_humidity_offset","state":"unknown","attributes":{"min":-50,"max":50,"step":0.1,"mode":"auto","unit_of_measurement":"%","friendly_name":"Child Room Sensor Humidity offset"},"last_changed":"2025-10-05T12:38:41.667787+00:00","last_reported":"2025-10-05T12:38:41.667787+00:00","last_updated":"2025-10-05T12:38:41.667787+00:00","context":{"id":"01K6T638R30RX8W4ZRPF8Q0M4Q","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 50,
         "native_min_value": -50,
@@ -944,242 +944,247 @@
         "native_unit_of_measurement": "%",
         "native_value": null
       },
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"select.sonoff_snzb_02d_display_unit","state":"unknown","attributes":{"options":["Celsius","Fahrenheit"],"friendly_name":"Living Room Sensor Display unit"},"last_changed":"2025-10-05T08:37:13.138677+00:00","last_reported":"2025-10-05T08:37:13.138677+00:00","last_updated":"2025-10-05T08:37:13.138677+00:00","context":{"id":"01K6SR93SJF5Q71RDBKYB9325G","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.sonoff_snzb_02d_display_unit","state":"unknown","attributes":{"options":["Celsius","Fahrenheit"],"friendly_name":"Living Room Sensor Display unit"},"last_changed":"2025-10-05T12:38:41.670272+00:00","last_reported":"2025-10-05T12:38:41.670272+00:00","last_updated":"2025-10-05T12:38:41.670272+00:00","context":{"id":"01K6T638R6FH0P3R9NY8Y1J4YS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"select.bedroom_sensor_display_unit","state":"unknown","attributes":{"options":["Celsius","Fahrenheit"],"friendly_name":"Bedroom Sensor Display unit"},"last_changed":"2025-10-05T08:37:13.140237+00:00","last_reported":"2025-10-05T08:37:13.140237+00:00","last_updated":"2025-10-05T08:37:13.140237+00:00","context":{"id":"01K6SR93SMYEYESVNJZRQASPEV","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.bedroom_sensor_display_unit","state":"unknown","attributes":{"options":["Celsius","Fahrenheit"],"friendly_name":"Bedroom Sensor Display unit"},"last_changed":"2025-10-05T12:38:41.671527+00:00","last_reported":"2025-10-05T12:38:41.671527+00:00","last_updated":"2025-10-05T12:38:41.671527+00:00","context":{"id":"01K6T638R770CK9YA76PTBF72W","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"select.child_room_sensor_display_unit","state":"unknown","attributes":{"options":["Celsius","Fahrenheit"],"friendly_name":"Child Room Sensor Display unit"},"last_changed":"2025-10-05T08:37:13.141636+00:00","last_reported":"2025-10-05T08:37:13.141636+00:00","last_updated":"2025-10-05T08:37:13.141636+00:00","context":{"id":"01K6SR93SNFRF4N4457GVJBQ5P","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.child_room_sensor_display_unit","state":"unknown","attributes":{"options":["Celsius","Fahrenheit"],"friendly_name":"Child Room Sensor Display unit"},"last_changed":"2025-10-05T12:38:41.672985+00:00","last_reported":"2025-10-05T12:38:41.672985+00:00","last_updated":"2025-10-05T12:38:41.672985+00:00","context":{"id":"01K6T638R8YSPRA4KQZ98992B7","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.child_radiator_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Child Room Radiator Battery"},"last_changed":"2025-10-05T08:37:13.166838+00:00","last_reported":"2025-10-05T08:37:13.166838+00:00","last_updated":"2025-10-05T08:37:13.166838+00:00","context":{"id":"01K6SR93TEZJT6CTGJE5FBMF79","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.child_radiator_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Child Room Radiator Battery"},"last_changed":"2025-10-05T12:38:41.698131+00:00","last_reported":"2025-10-05T12:38:41.698131+00:00","last_updated":"2025-10-05T12:38:41.698131+00:00","context":{"id":"01K6T638S25QM0VYV93GHWNNEQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.child_radiator_hvac_action","state":"off","attributes":{"friendly_name":"Child Room Radiator HVAC action"},"last_changed":"2025-10-05T08:39:59.583566+00:00","last_reported":"2025-10-05T08:39:59.583566+00:00","last_updated":"2025-10-05T08:39:59.583566+00:00","context":{"id":"01K6SRE6AZ0Z3NAK7YJP5DG64D","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.child_radiator_hvac_action","state":"off","attributes":{"friendly_name":"Child Room Radiator HVAC action"},"last_changed":"2025-10-05T12:38:41.701200+00:00","last_reported":"2025-10-05T12:38:41.701200+00:00","last_updated":"2025-10-05T12:38:41.701200+00:00","context":{"id":"01K6T638S5XGGSAM2YQQRS6939","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.child_radiator_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Child Room Radiator Timestamp"},"last_changed":"2025-10-05T08:37:13.171438+00:00","last_reported":"2025-10-05T08:37:13.171438+00:00","last_updated":"2025-10-05T08:37:13.171438+00:00","context":{"id":"01K6SR93TKDH1KXE6SCJV6X1Y7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.child_radiator_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Child Room Radiator Timestamp"},"last_changed":"2025-10-05T12:38:41.702918+00:00","last_reported":"2025-10-05T12:38:41.702918+00:00","last_updated":"2025-10-05T12:38:41.702918+00:00","context":{"id":"01K6T638S66HC1PPEQ38EH562X","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_radiator_1_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Living Room Radiator 1 Battery"},"last_changed":"2025-10-05T08:37:13.173200+00:00","last_reported":"2025-10-05T08:37:13.173200+00:00","last_updated":"2025-10-05T08:37:13.173200+00:00","context":{"id":"01K6SR93TNWB5Z7ZX4JSR0D2QE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_radiator_1_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Living Room Radiator 1 Battery"},"last_changed":"2025-10-05T12:38:41.704629+00:00","last_reported":"2025-10-05T12:38:41.704629+00:00","last_updated":"2025-10-05T12:38:41.704629+00:00","context":{"id":"01K6T638S8551VCH1YDBH9MMG2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_radiator_1_hvac_action","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 HVAC action"},"last_changed":"2025-10-05T08:37:13.175963+00:00","last_reported":"2025-10-05T08:37:13.175963+00:00","last_updated":"2025-10-05T08:37:13.175963+00:00","context":{"id":"01K6SR93TQZDM2Z9ZXV521TMXQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_radiator_1_hvac_action","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 HVAC action"},"last_changed":"2025-10-05T12:49:19.282489+00:00","last_reported":"2025-10-05T12:49:19.282489+00:00","last_updated":"2025-10-05T12:49:19.282489+00:00","context":{"id":"01K6T6PQDJ85CE3AY326FKY7RC","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_radiator_1_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Living Room Radiator 1 Timestamp"},"last_changed":"2025-10-05T08:37:13.177451+00:00","last_reported":"2025-10-05T08:37:13.177451+00:00","last_updated":"2025-10-05T08:37:13.177451+00:00","context":{"id":"01K6SR93TSCBSVMYACTZ0Y4VH8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_radiator_1_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Living Room Radiator 1 Timestamp"},"last_changed":"2025-10-05T12:38:41.709052+00:00","last_reported":"2025-10-05T12:38:41.709052+00:00","last_updated":"2025-10-05T12:38:41.709052+00:00","context":{"id":"01K6T638SDX2Y6WA2PAD6MT1RX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_radiator_2_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Living Room Radiator 2 Battery"},"last_changed":"2025-10-05T08:37:13.179118+00:00","last_reported":"2025-10-05T08:37:13.179118+00:00","last_updated":"2025-10-05T08:37:13.179118+00:00","context":{"id":"01K6SR93TVMDFCH4A06F7QKQ9S","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_radiator_2_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Living Room Radiator 2 Battery"},"last_changed":"2025-10-05T12:38:41.710732+00:00","last_reported":"2025-10-05T12:38:41.710732+00:00","last_updated":"2025-10-05T12:38:41.710732+00:00","context":{"id":"01K6T638SE3DD42Q3KY69J0JSS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_radiator_2_hvac_action","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 HVAC action"},"last_changed":"2025-10-05T08:37:13.181782+00:00","last_reported":"2025-10-05T08:37:13.181782+00:00","last_updated":"2025-10-05T08:37:13.181782+00:00","context":{"id":"01K6SR93TX14G3DCET2FQNFM26","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_radiator_2_hvac_action","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 HVAC action"},"last_changed":"2025-10-05T12:38:41.715928+00:00","last_reported":"2025-10-05T12:38:41.715928+00:00","last_updated":"2025-10-05T12:38:41.715928+00:00","context":{"id":"01K6T638SK03P6AX1TETXT9PWW","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_radiator_2_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Living Room Radiator 2 Timestamp"},"last_changed":"2025-10-05T08:37:13.183435+00:00","last_reported":"2025-10-05T08:37:13.183435+00:00","last_updated":"2025-10-05T08:37:13.183435+00:00","context":{"id":"01K6SR93TZNGFAYT3SE9JA7CRS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_radiator_2_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Living Room Radiator 2 Timestamp"},"last_changed":"2025-10-05T12:38:41.717604+00:00","last_reported":"2025-10-05T12:38:41.717604+00:00","last_updated":"2025-10-05T12:38:41.717604+00:00","context":{"id":"01K6T638SN4R546QHP5WR45W46","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_radiator_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Bedroom Radiator Battery"},"last_changed":"2025-10-05T08:37:13.185088+00:00","last_reported":"2025-10-05T08:37:13.185088+00:00","last_updated":"2025-10-05T08:37:13.185088+00:00","context":{"id":"01K6SR93V1393JD78NNE3EGCJQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_radiator_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Bedroom Radiator Battery"},"last_changed":"2025-10-05T12:38:41.719298+00:00","last_reported":"2025-10-05T12:38:41.719298+00:00","last_updated":"2025-10-05T12:38:41.719298+00:00","context":{"id":"01K6T638SQ3A6SEW4TYXMZF5EM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_radiator_hvac_action","state":"off","attributes":{"friendly_name":"Bedroom Radiator HVAC action"},"last_changed":"2025-10-05T08:37:13.187784+00:00","last_reported":"2025-10-05T08:37:13.187784+00:00","last_updated":"2025-10-05T08:37:13.187784+00:00","context":{"id":"01K6SR93V35RTVEA0VRVZS1GNX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_radiator_hvac_action","state":"off","attributes":{"friendly_name":"Bedroom Radiator HVAC action"},"last_changed":"2025-10-05T12:38:41.722256+00:00","last_reported":"2025-10-05T12:38:41.722256+00:00","last_updated":"2025-10-05T12:38:41.722256+00:00","context":{"id":"01K6T638STR60S9Z3DHGHQZB6F","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_radiator_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Bedroom Radiator Timestamp"},"last_changed":"2025-10-05T08:37:13.189239+00:00","last_reported":"2025-10-05T08:37:13.189239+00:00","last_updated":"2025-10-05T08:37:13.189239+00:00","context":{"id":"01K6SR93V5TAEHXQHJF6AEQVZG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_radiator_timestamp","state":"unknown","attributes":{"device_class":"timestamp","friendly_name":"Bedroom Radiator Timestamp"},"last_changed":"2025-10-05T12:38:41.723850+00:00","last_reported":"2025-10-05T12:38:41.723850+00:00","last_updated":"2025-10-05T12:38:41.723850+00:00","context":{"id":"01K6T638SV10WTF7ECHNXWK142","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.sonoff_snzb_02d_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Living Room Sensor Battery"},"last_changed":"2025-10-05T08:37:13.190846+00:00","last_reported":"2025-10-05T08:37:13.190846+00:00","last_updated":"2025-10-05T08:37:13.190846+00:00","context":{"id":"01K6SR93V60GEMW56Z2G17K52K","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.sonoff_snzb_02d_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Living Room Sensor Battery"},"last_changed":"2025-10-05T12:38:41.725448+00:00","last_reported":"2025-10-05T12:38:41.725448+00:00","last_updated":"2025-10-05T12:38:41.725448+00:00","context":{"id":"01K6T638SXPHDPAZW2KT2PCRN4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.living_room_sensor_temperature","state":"22.8","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Living Room Sensor Temperature"},"last_changed":"2025-10-05T08:37:13.192540+00:00","last_reported":"2025-10-05T08:37:13.192540+00:00","last_updated":"2025-10-05T08:37:13.192540+00:00","context":{"id":"01K6SR93V86BA9NRF4M84J8T3E","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.living_room_sensor_temperature","state":"22.6","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Living Room Sensor Temperature"},"last_changed":"2025-10-05T12:38:41.727127+00:00","last_reported":"2025-10-05T12:38:41.727127+00:00","last_updated":"2025-10-05T12:38:41.727127+00:00","context":{"id":"01K6T638SZEKKX8NJYR7QB94WD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.sonoff_snzb_02d_humidity","state":"66.5","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"humidity","friendly_name":"Living Room Sensor Humidity"},"last_changed":"2025-10-05T08:37:13.195225+00:00","last_reported":"2025-10-05T08:37:13.195225+00:00","last_updated":"2025-10-05T08:37:13.195225+00:00","context":{"id":"01K6SR93VBH26BQJEDRY442EZ4","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.sonoff_snzb_02d_humidity","state":"65.5","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"humidity","friendly_name":"Living Room Sensor Humidity"},"last_changed":"2025-10-05T12:50:33.690232+00:00","last_reported":"2025-10-05T12:50:33.690232+00:00","last_updated":"2025-10-05T12:50:33.690232+00:00","context":{"id":"01K6T6S02T94DDPJTPGY2YXDKT","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_sensor_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Bedroom Sensor Battery"},"last_changed":"2025-10-05T08:37:13.196873+00:00","last_reported":"2025-10-05T08:37:13.196873+00:00","last_updated":"2025-10-05T08:37:13.196873+00:00","context":{"id":"01K6SR93VC8KQECRN3YQ1PY2TG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_sensor_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Bedroom Sensor Battery"},"last_changed":"2025-10-05T12:38:41.731564+00:00","last_reported":"2025-10-05T12:38:41.731564+00:00","last_updated":"2025-10-05T12:38:41.731564+00:00","context":{"id":"01K6T638T3EFZJ47FA5TAWD0RW","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_sensor_temperature","state":"22.1","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Bedroom Sensor Temperature"},"last_changed":"2025-10-05T08:37:13.198357+00:00","last_reported":"2025-10-05T08:37:13.198357+00:00","last_updated":"2025-10-05T08:37:13.198357+00:00","context":{"id":"01K6SR93VEP24P1HRAXKMD2H8K","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_sensor_temperature","state":"21.7","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Bedroom Sensor Temperature"},"last_changed":"2025-10-05T12:38:41.733282+00:00","last_reported":"2025-10-05T12:38:41.733282+00:00","last_updated":"2025-10-05T12:38:41.733282+00:00","context":{"id":"01K6T638T58Z1N6WW3431R2VAP","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.bedroom_sensor_humidity","state":"64.1","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"humidity","friendly_name":"Bedroom Sensor Humidity"},"last_changed":"2025-10-05T08:37:13.200871+00:00","last_reported":"2025-10-05T08:37:13.200871+00:00","last_updated":"2025-10-05T08:37:13.200871+00:00","context":{"id":"01K6SR93VGYBRNXSJXRVCHNZX7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.bedroom_sensor_humidity","state":"68.1","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"humidity","friendly_name":"Bedroom Sensor Humidity"},"last_changed":"2025-10-05T12:38:41.735807+00:00","last_reported":"2025-10-05T12:38:41.735807+00:00","last_updated":"2025-10-05T12:38:41.735807+00:00","context":{"id":"01K6T638T7E3M2D8APHDEQCVHA","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.child_room_sensor_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Child Room Sensor Battery"},"last_changed":"2025-10-05T08:37:13.202564+00:00","last_reported":"2025-10-05T08:37:13.202564+00:00","last_updated":"2025-10-05T08:37:13.202564+00:00","context":{"id":"01K6SR93VJYZVHJFNCFJF6AMD6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.child_room_sensor_battery","state":"100.0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"Child Room Sensor Battery"},"last_changed":"2025-10-05T12:38:41.737489+00:00","last_reported":"2025-10-05T12:38:41.737489+00:00","last_updated":"2025-10-05T12:38:41.737489+00:00","context":{"id":"01K6T638T9M2YKN78MXACK21KK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.child_room_sensor_temperature","state":"22.1","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Child Room Sensor Temperature"},"last_changed":"2025-10-05T08:57:49.286698+00:00","last_reported":"2025-10-05T08:57:49.286698+00:00","last_updated":"2025-10-05T08:57:49.286698+00:00","context":{"id":"01K6SSETZ6WRA3MEMDF8WGC65X","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.child_room_sensor_temperature","state":"21.7","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"Child Room Sensor Temperature"},"last_changed":"2025-10-05T12:43:20.027788+00:00","last_reported":"2025-10-05T12:43:20.027788+00:00","last_updated":"2025-10-05T12:43:20.027788+00:00","context":{"id":"01K6T6BRJVR1FWSJN7PVF59FR2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"sensor.child_room_sensor_humidity","state":"68.5","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"humidity","friendly_name":"Child Room Sensor Humidity"},"last_changed":"2025-10-05T08:37:13.206588+00:00","last_reported":"2025-10-05T08:37:13.206588+00:00","last_updated":"2025-10-05T08:37:13.206588+00:00","context":{"id":"01K6SR93VP8JA6MN7BJ14S24FP","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.child_room_sensor_humidity","state":"68.5","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"humidity","friendly_name":"Child Room Sensor Humidity"},"last_changed":"2025-10-05T12:38:41.741534+00:00","last_reported":"2025-10-05T12:38:41.741534+00:00","last_updated":"2025-10-05T12:38:41.741534+00:00","context":{"id":"01K6T638TDKPAQZGZ4RX48HHCS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.child_room_radiator_switch","state":"off","attributes":{"friendly_name":"Child Room Radiator Switch"},"last_changed":"2025-10-05T08:39:58.836657+00:00","last_reported":"2025-10-05T08:39:58.836657+00:00","last_updated":"2025-10-05T08:39:58.836657+00:00","context":{"id":"01K6SRE4PGTY8A2C79V5BEQDK3","parent_id":null,"user_id":"704c275e343641859a019f45b50994b9"}},
+      "state": {"entity_id":"switch.child_room_radiator_switch","state":"off","attributes":{"friendly_name":"Child Room Radiator Switch"},"last_changed":"2025-10-05T12:38:41.745028+00:00","last_reported":"2025-10-05T12:38:41.745028+00:00","last_updated":"2025-10-05T12:38:41.745028+00:00","context":{"id":"01K6T638TH1N1973DKS86GX492","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.child_radiator_child_lock","state":"off","attributes":{"friendly_name":"Child Room Radiator Child lock"},"last_changed":"2025-10-05T08:37:13.211238+00:00","last_reported":"2025-10-05T08:37:13.211238+00:00","last_updated":"2025-10-05T08:37:13.211238+00:00","context":{"id":"01K6SR93VVWZ48X04S7WW5B9FB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.child_radiator_child_lock","state":"off","attributes":{"friendly_name":"Child Room Radiator Child lock"},"last_changed":"2025-10-05T12:38:41.746343+00:00","last_reported":"2025-10-05T12:38:41.746343+00:00","last_updated":"2025-10-05T12:38:41.746343+00:00","context":{"id":"01K6T638TJ367F0NC8Z9WENF2P","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.child_radiator_open_window","state":"off","attributes":{"friendly_name":"Child Room Radiator Open window"},"last_changed":"2025-10-05T08:37:13.212506+00:00","last_reported":"2025-10-05T08:37:13.212506+00:00","last_updated":"2025-10-05T08:37:13.212506+00:00","context":{"id":"01K6SR93VWK5XQTX1XD3KEXTKQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.child_radiator_open_window","state":"off","attributes":{"friendly_name":"Child Room Radiator Open window"},"last_changed":"2025-10-05T12:38:41.747517+00:00","last_reported":"2025-10-05T12:38:41.747517+00:00","last_updated":"2025-10-05T12:38:41.747517+00:00","context":{"id":"01K6T638TKBF8BVDR3YHWPVC2J","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.child_radiator_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Child Room Radiator External temperature sensor"},"last_changed":"2025-10-05T08:37:13.213770+00:00","last_reported":"2025-10-05T08:37:13.213770+00:00","last_updated":"2025-10-05T08:37:13.213770+00:00","context":{"id":"01K6SR93VXSNNEW9PHBQ8KT48G","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.child_radiator_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Child Room Radiator External temperature sensor"},"last_changed":"2025-10-05T12:38:41.748770+00:00","last_reported":"2025-10-05T12:38:41.748770+00:00","last_updated":"2025-10-05T12:38:41.748770+00:00","context":{"id":"01K6T638TM9XTCSA78B82XCFRS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_1_switch","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 Switch"},"last_changed":"2025-10-05T08:37:13.214933+00:00","last_reported":"2025-10-05T08:37:13.214933+00:00","last_updated":"2025-10-05T08:37:13.214933+00:00","context":{"id":"01K6SR93VY1Z6Q7GVPW5J89BZE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_1_switch","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 Switch"},"last_changed":"2025-10-05T12:49:18.604008+00:00","last_reported":"2025-10-05T12:49:18.604008+00:00","last_updated":"2025-10-05T12:49:18.604008+00:00","context":{"id":"01K6T6PPRCA0Y4H41QT5XK7921","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_1_child_lock","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 Child lock"},"last_changed":"2025-10-05T08:37:13.216166+00:00","last_reported":"2025-10-05T08:37:13.216166+00:00","last_updated":"2025-10-05T08:37:13.216166+00:00","context":{"id":"01K6SR93W046BM5JQ4E678FH8T","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_1_child_lock","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 Child lock"},"last_changed":"2025-10-05T12:38:41.751100+00:00","last_reported":"2025-10-05T12:38:41.751100+00:00","last_updated":"2025-10-05T12:38:41.751100+00:00","context":{"id":"01K6T638TQTMZDEGNYYJ3A8VMN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_1_open_window","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 Open window"},"last_changed":"2025-10-05T08:37:13.217360+00:00","last_reported":"2025-10-05T08:37:13.217360+00:00","last_updated":"2025-10-05T08:37:13.217360+00:00","context":{"id":"01K6SR93W16VCB919R5Y70W5MN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_1_open_window","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 Open window"},"last_changed":"2025-10-05T12:38:41.752353+00:00","last_reported":"2025-10-05T12:38:41.752353+00:00","last_updated":"2025-10-05T12:38:41.752353+00:00","context":{"id":"01K6T638TRVZZ28W4FBYB60GQC","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_1_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 External temperature sensor"},"last_changed":"2025-10-05T08:37:13.218544+00:00","last_reported":"2025-10-05T08:37:13.218544+00:00","last_updated":"2025-10-05T08:37:13.218544+00:00","context":{"id":"01K6SR93W2VHDYC5657A4MK8M3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_1_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Living Room Radiator 1 External temperature sensor"},"last_changed":"2025-10-05T12:38:41.753618+00:00","last_reported":"2025-10-05T12:38:41.753618+00:00","last_updated":"2025-10-05T12:38:41.753618+00:00","context":{"id":"01K6T638TSXPGY4T8GKN8XDZDP","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_2_switch","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 Switch"},"last_changed":"2025-10-05T08:37:13.219757+00:00","last_reported":"2025-10-05T08:37:13.219757+00:00","last_updated":"2025-10-05T08:37:13.219757+00:00","context":{"id":"01K6SR93W3CHEFQ67JRMVJ0JZW","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_2_switch","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 Switch"},"last_changed":"2025-10-05T12:38:41.754808+00:00","last_reported":"2025-10-05T12:38:41.754808+00:00","last_updated":"2025-10-05T12:38:41.754808+00:00","context":{"id":"01K6T638TT2R6EVEE0JH7THF0N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_2_child_lock","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 Child lock"},"last_changed":"2025-10-05T08:37:13.220924+00:00","last_reported":"2025-10-05T08:37:13.220924+00:00","last_updated":"2025-10-05T08:37:13.220924+00:00","context":{"id":"01K6SR93W43V997B51Z5C20EZ3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_2_child_lock","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 Child lock"},"last_changed":"2025-10-05T12:38:41.755979+00:00","last_reported":"2025-10-05T12:38:41.755979+00:00","last_updated":"2025-10-05T12:38:41.755979+00:00","context":{"id":"01K6T638TVMRZA2FV0PMKCEB95","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_2_open_window","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 Open window"},"last_changed":"2025-10-05T08:37:13.222095+00:00","last_reported":"2025-10-05T08:37:13.222095+00:00","last_updated":"2025-10-05T08:37:13.222095+00:00","context":{"id":"01K6SR93W6QRGF5MKP37K2JH1B","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_2_open_window","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 Open window"},"last_changed":"2025-10-05T12:38:41.757151+00:00","last_reported":"2025-10-05T12:38:41.757151+00:00","last_updated":"2025-10-05T12:38:41.757151+00:00","context":{"id":"01K6T638TXKCTKSSCS67HDNAQ4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.living_room_radiator_2_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 External temperature sensor"},"last_changed":"2025-10-05T08:37:13.223392+00:00","last_reported":"2025-10-05T08:37:13.223392+00:00","last_updated":"2025-10-05T08:37:13.223392+00:00","context":{"id":"01K6SR93W73CH91WVT5WAN3N5J","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.living_room_radiator_2_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Living Room Radiator 2 External temperature sensor"},"last_changed":"2025-10-05T12:38:41.758317+00:00","last_reported":"2025-10-05T12:38:41.758317+00:00","last_updated":"2025-10-05T12:38:41.758317+00:00","context":{"id":"01K6T638TY7DGJ639VQB92RRKQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.bedroom_radiator_switch","state":"off","attributes":{"friendly_name":"Bedroom Radiator Switch"},"last_changed":"2025-10-05T08:37:13.224568+00:00","last_reported":"2025-10-05T08:37:13.224568+00:00","last_updated":"2025-10-05T08:37:13.224568+00:00","context":{"id":"01K6SR93W8W2VPK2V9VDNYMKB6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.bedroom_radiator_switch","state":"off","attributes":{"friendly_name":"Bedroom Radiator Switch"},"last_changed":"2025-10-05T12:38:41.759842+00:00","last_reported":"2025-10-05T12:38:41.759842+00:00","last_updated":"2025-10-05T12:38:41.759842+00:00","context":{"id":"01K6T638TZC2Y2G92PBS73B5E8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.bedroom_radiator_child_lock","state":"off","attributes":{"friendly_name":"Bedroom Radiator Child lock"},"last_changed":"2025-10-05T08:37:13.225713+00:00","last_reported":"2025-10-05T08:37:13.225713+00:00","last_updated":"2025-10-05T08:37:13.225713+00:00","context":{"id":"01K6SR93W9BNHTRZ385R7C0YDA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.bedroom_radiator_child_lock","state":"off","attributes":{"friendly_name":"Bedroom Radiator Child lock"},"last_changed":"2025-10-05T12:38:41.761116+00:00","last_reported":"2025-10-05T12:38:41.761116+00:00","last_updated":"2025-10-05T12:38:41.761116+00:00","context":{"id":"01K6T638V1BHZ5CGGRVH5TMMKS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.bedroom_radiator_open_window","state":"off","attributes":{"friendly_name":"Bedroom Radiator Open window"},"last_changed":"2025-10-05T08:37:13.226931+00:00","last_reported":"2025-10-05T08:37:13.226931+00:00","last_updated":"2025-10-05T08:37:13.226931+00:00","context":{"id":"01K6SR93WA71FDHC9SKYQ115V1","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.bedroom_radiator_open_window","state":"off","attributes":{"friendly_name":"Bedroom Radiator Open window"},"last_changed":"2025-10-05T12:38:41.762377+00:00","last_reported":"2025-10-05T12:38:41.762377+00:00","last_updated":"2025-10-05T12:38:41.762377+00:00","context":{"id":"01K6T638V2T52YSPS61H9XVTJ3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"switch.bedroom_radiator_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Bedroom Radiator External temperature sensor"},"last_changed":"2025-10-05T08:37:13.228144+00:00","last_reported":"2025-10-05T08:37:13.228144+00:00","last_updated":"2025-10-05T08:37:13.228144+00:00","context":{"id":"01K6SR93WCS58M1HHZ6YQ2T12N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"switch.bedroom_radiator_external_temperature_sensor","state":"off","attributes":{"friendly_name":"Bedroom Radiator External temperature sensor"},"last_changed":"2025-10-05T12:38:41.763698+00:00","last_reported":"2025-10-05T12:38:41.763698+00:00","last_updated":"2025-10-05T12:38:41.763698+00:00","context":{"id":"01K6T638V3PTKE25M23NXW8NZ2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.child_radiator_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Child Room Radiator Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.230469+00:00","last_reported":"2025-10-05T08:37:13.230469+00:00","last_updated":"2025-10-05T08:37:13.230469+00:00","context":{"id":"01K6SR93WE5B5JGJ8VXRNFTB6C","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.child_radiator_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Child Room Radiator Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.766027+00:00","last_reported":"2025-10-05T12:38:41.766027+00:00","last_updated":"2025-10-05T12:38:41.766027+00:00","context":{"id":"01K6T638V685GWSG8WD9KJ92NM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.living_room_radiator_1_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Living Room Radiator 1 Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.231830+00:00","last_reported":"2025-10-05T08:37:13.231830+00:00","last_updated":"2025-10-05T08:37:13.231830+00:00","context":{"id":"01K6SR93WF24VVWQAA9P9PX1YE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.living_room_radiator_1_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Living Room Radiator 1 Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.767333+00:00","last_reported":"2025-10-05T12:38:41.767333+00:00","last_updated":"2025-10-05T12:38:41.767333+00:00","context":{"id":"01K6T638V7RCPNMT6MMR7MDZE8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.living_room_radiator_2_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Living Room Radiator 2 Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.233196+00:00","last_reported":"2025-10-05T08:37:13.233196+00:00","last_updated":"2025-10-05T08:37:13.233196+00:00","context":{"id":"01K6SR93WH8G2C95B3XGFJ99Z8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.living_room_radiator_2_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Living Room Radiator 2 Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.768515+00:00","last_reported":"2025-10-05T12:38:41.768515+00:00","last_updated":"2025-10-05T12:38:41.768515+00:00","context":{"id":"01K6T638V80T1BZ3PCQPG7ARF2","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.bedroom_radiator_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bedroom Radiator Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.234438+00:00","last_reported":"2025-10-05T08:37:13.234438+00:00","last_updated":"2025-10-05T08:37:13.234438+00:00","context":{"id":"01K6SR93WJYNMK393TVN0E190W","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.bedroom_radiator_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00001300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bedroom Radiator Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.769770+00:00","last_reported":"2025-10-05T12:38:41.769770+00:00","last_updated":"2025-10-05T12:38:41.769770+00:00","context":{"id":"01K6T638V94G5XSVAED44BEK05","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.sonoff_snzb_02d_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00002300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Living Room Sensor Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.237859+00:00","last_reported":"2025-10-05T08:37:13.237859+00:00","last_updated":"2025-10-05T08:37:13.237859+00:00","context":{"id":"01K6SR93WN6J64V915553BKZ5X","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.sonoff_snzb_02d_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00002300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Living Room Sensor Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.771032+00:00","last_reported":"2025-10-05T12:38:41.771032+00:00","last_updated":"2025-10-05T12:38:41.771032+00:00","context":{"id":"01K6T638VBDSVTYMQ2044FGG92","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.bedroom_sensor_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00002300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bedroom Sensor Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.239331+00:00","last_reported":"2025-10-05T08:37:13.239331+00:00","last_updated":"2025-10-05T08:37:13.239331+00:00","context":{"id":"01K6SR93WQ3FRQVE8J8DHZ9CRS","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.bedroom_sensor_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00002300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bedroom Sensor Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.772374+00:00","last_reported":"2025-10-05T12:38:41.772374+00:00","last_updated":"2025-10-05T12:38:41.772374+00:00","context":{"id":"01K6T638VC962KQ79QB930G2VD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
-      "state": {"entity_id":"update.child_room_sensor_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00002300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Child Room Sensor Firmware","supported_features":23},"last_changed":"2025-10-05T08:37:13.240557+00:00","last_reported":"2025-10-05T08:37:13.240557+00:00","last_updated":"2025-10-05T08:37:13.240557+00:00","context":{"id":"01K6SR93WRT7C19N6XCE0MENNV","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.child_room_sensor_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x00002300","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Child Room Sensor Firmware","supported_features":23},"last_changed":"2025-10-05T12:38:41.773692+00:00","last_reported":"2025-10-05T12:38:41.773692+00:00","last_updated":"2025-10-05T12:38:41.773692+00:00","context":{"id":"01K6T638VDR74GHXQ1TH6EB8BC","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-10-05T09:22:13.292357+00:00"
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
+    },
+    {
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2025-10-05T12:40:10.554077+00:00","last_reported":"2025-10-05T12:40:10.556387+00:00","last_updated":"2025-10-05T12:40:10.554077+00:00","context":{"id":"01K6T65ZHTQR8KHYK54F2D39W9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-10-05T13:23:41.811839+00:00"
     },
     {
       "state": {"entity_id":"automation.boiler_control_with_cycle_protection","state":"on","attributes":{"last_triggered":"2025-10-05T08:27:32.348329+00:00","mode":"restart","current":0,"friendly_name":"Boiler Control with Cycle Protection"},"last_changed":"2025-10-05T08:21:49.009281+00:00","last_reported":"2025-10-05T08:27:32.350500+00:00","last_updated":"2025-10-05T08:27:32.350500+00:00","context":{"id":"01K6SQQCKVBDB12T6VNX85J60K","parent_id":null,"user_id":null}},
