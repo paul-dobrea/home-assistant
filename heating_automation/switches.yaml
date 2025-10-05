@@ -1,0 +1,21 @@
+living_room_switch:
+  switch:
+    - platform: template
+      switches:
+        living_room_radiators:
+          friendly_name: "Living Room Radiators"
+          value_template: >
+            {{ is_state('switch.living_room_radiator_1_switch', 'on') or
+               is_state('switch.living_room_radiator_2_switch', 'on') }}
+          turn_on:
+            - service: switch.turn_on
+              target:
+                entity_id:
+                  - switch.living_room_radiator_1_switch
+                  - switch.living_room_radiator_2_switch
+          turn_off:
+            - service: switch.turn_off
+              target:
+                entity_id:
+                  - switch.living_room_radiator_1_switch
+                  - switch.living_room_radiator_2_switch

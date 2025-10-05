@@ -1,0 +1,43 @@
+heating_targets:
+  input_number:
+    bedroom_day_temp:
+      name: Bedroom Day Temperature
+      initial: 22
+      min: 5
+      max: 30
+      step: 0.1
+
+    bedroom_night_temp:
+      name: Bedroom Night Temperature
+      initial: 20
+      min: 5
+      max: 30
+      step: 0.1
+
+    child_day_temp:
+      name: Child Room Day Temperature
+      initial: 22
+      min: 5
+      max: 30
+      step: 0.1
+
+    child_night_temp:
+      name: Child Room Night Temperature
+      initial: 20
+      min: 5
+      max: 30
+      step: 0.1
+
+    living_day_temp:
+      name: Living Room Day Temperature
+      initial: 22
+      min: 5
+      max: 30
+      step: 0.1
+
+    living_night_temp:
+      name: Living Room Night Temperature
+      initial: 20
+      min: 5
+      max: 30
+      step: 0.1

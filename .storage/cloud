@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "cloud",
+  "data": {
+    "alexa_default_expose": [
+      "climate",
+      "cover",
+      "fan",
+      "humidifier",
+      "light",
+      "lock",
+      "scene",
+      "script",
+      "sensor",
+      "switch",
+      "vacuum",
+      "water_heater"
+    ],
+    "alexa_entity_configs": {},
+    "alexa_settings_version": 3,
+    "cloud_user": "cc2bb83ce46e43afa77b6f298a573d4d",
+    "cloudhooks": {
+      "4445fc68a13bff1d16d9ab9e560c9d44c965941baf2c7c02aa4495bd260edb6a": {
+        "webhook_id": "4445fc68a13bff1d16d9ab9e560c9d44c965941baf2c7c02aa4495bd260edb6a",
+        "cloudhook_id": "42ddccafb9d04181996f7f5397879850",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABo4hMa0cwCd9CVOFZ7WAqDEjOUBAVdkCeKTQvSycV_K2TQesM1hzaoSdta-OhGaWMDTMvW7ktG2_SweINJvpBemkPaWObuG5t_QNjrhnHZt-EE1iI7mRB2TJQS_XJGXdzXiqitT-CB79qmN-qor_aluCT-v4eFBzY-J4llhU3m7r4A7Ig=",
+        "managed": true
+      },
+      "e741cf9578541dc8ed28c8bb7abc1cecb196d47900e2729434b17bfec29ce229": {
+        "webhook_id": "e741cf9578541dc8ed28c8bb7abc1cecb196d47900e2729434b17bfec29ce229",
+        "cloudhook_id": "40507f3857e640feab5eb5a5594a4e20",
+        "cloudhook_url": "https://hooks.nabu.casa/gAAAAABo4hVPi4xQrAdrIcHn9kJCoeuPW1rrfi_WJInSN4-IchNGaGGcmpfzx_ok2lF54Cdo_4Y4kPn20uk2VG4vaTtjuACJyfyTkSGbmAu1SkXyjn4cnuH5Z3pp-sltFA98AmlvKLBJhj1jvMnqW7SIhzKstm-qHYgZh23a7AVQE3NXt_7ytFs=",
+        "managed": true
+      }
+    },
+    "alexa_enabled": true,
+    "google_enabled": true,
+    "remote_enabled": true,
+    "cloud_ice_servers_enabled": true,
+    "google_connected": false,
+    "google_default_expose": [
+      "climate",
+      "cover",
+      "fan",
+      "humidifier",
+      "light",
+      "lock",
+      "scene",
+      "script",
+      "sensor",
+      "switch",
+      "vacuum",
+      "water_heater"
+    ],
+    "google_entity_configs": {},
+    "google_settings_version": 3,
+    "google_local_webhook_id": "8a46c8c985b405e724c8ecc34e1ad69881dbc6cdc01d6d3e446e723217de1225",
+    "instance_id": "3f168f7a24d84a8abd2f6b659bc5f61b",
+    "google_secure_devices_pin": null,
+    "remote_domain": null,
+    "remote_allow_remote_enable": true,
+    "username": "11fc4031-53b3-4086-8b98-447be52562ad"
+  }
+}

@@ -1,0 +1,69 @@
+boiler_automation:
+  automation:
+    - alias: Boiler Control with Cycle Protection
+      description: Control the boiler with minimum on/off protection
+      trigger:
+        - platform: state
+          entity_id: binary_sensor.heating_demand
+      action:
+        - choose:
+            # Case 1: Heating demand present, boiler can run
+            - conditions:
+                - condition: state
+                  entity_id: binary_sensor.heating_demand
+                  state: 'on'
+                - condition: state
+                  entity_id: input_boolean.boiler_locked
+                  state: 'off'
+              sequence:
+                - service: switch.turn_on
+                  target:
+                    entity_id: switch.boiler_control_switch
+                - service: timer.start
+                  target:
+                    entity_id: timer.boiler_min_on
+                - service: input_boolean.turn_on
+                  target:
+                    entity_id: input_boolean.boiler_locked
+
+            # Case 2: No heating demand, boiler can stop
+            - conditions:
+                - condition: state
+                  entity_id: binary_sensor.heating_demand
+                  state: 'off'
+                - condition: state
+                  entity_id: input_boolean.boiler_locked
+                  state: 'on'
+              sequence:
+                - service: switch.turn_off
+                  target:
+                    entity_id: switch.boiler_control_switch
+                - service: timer.start
+                  target:
+                    entity_id: timer.boiler_min_off
+                - service: input_boolean.turn_off
+                  target:
+                    entity_id: input_boolean.boiler_locked
+      mode: restart
+
+    - alias: Unlock Boiler After Min On
+      trigger:
+        - platform: event
+          event_type: timer.finished
+          event_data:
+            entity_id: timer.boiler_min_on
+      action:
+        - service: input_boolean.turn_off
+          target:
+            entity_id: input_boolean.boiler_locked
+
+    - alias: Unlock Boiler After Min Off
+      trigger:
+        - platform: event
+          event_type: timer.finished
+          event_data:
+            entity_id: timer.boiler_min_off
+      action:
+        - service: input_boolean.turn_off
+          target:
+            entity_id: input_boolean.boiler_locked

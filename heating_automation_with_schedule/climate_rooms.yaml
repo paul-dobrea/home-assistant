@@ -1,0 +1,64 @@
+climate_rooms:
+  climate:
+    - platform: generic_thermostat
+      name: Bedroom Thermostat
+      heater: switch.bedroom_radiator_switch
+      target_sensor: sensor.bedroom_sensor_temperature
+      min_temp: 10
+      max_temp: 25
+      ac_mode: false
+      cold_tolerance: 0.3
+      hot_tolerance: 0.3
+      min_cycle_duration:
+        minutes: 1
+      precision: 0.1
+      unique_id: bedroom_radiator_thermostat
+
+    - platform: generic_thermostat
+      name: Child Room Thermostat
+      heater: switch.child_room_radiator_switch
+      target_sensor: sensor.child_room_sensor_temperature
+      min_temp: 10
+      max_temp: 25
+      ac_mode: false
+      cold_tolerance: 0.3
+      hot_tolerance: 0.3
+      min_cycle_duration:
+        minutes: 1
+      precision: 0.1
+      unique_id: child_radiator_thermostat
+
+    - platform: generic_thermostat
+      name: Living Room Thermostat
+      heater: switch.living_room_radiators
+      target_sensor: sensor.living_room_sensor_temperature
+      min_temp: 10
+      max_temp: 25
+      ac_mode: false
+      cold_tolerance: 0.3
+      hot_tolerance: 0.3
+      min_cycle_duration:
+        minutes: 1
+      precision: 0.1
+      unique_id: living_room_radiator_thermostat
+
+  switch:
+    - platform: template
+      switches:
+        living_room_radiators:
+          friendly_name: "Living Room Radiators"
+          value_template: >
+            {{ is_state('switch.living_room_radiator_1_switch', 'on') or
+               is_state('switch.living_room_radiator_2_switch', 'on') }}
+          turn_on:
+            - service: switch.turn_on
+              target:
+                entity_id:
+                  - switch.living_room_radiator_1_switch
+                  - switch.living_room_radiator_2_switch
+          turn_off:
+            - service: switch.turn_off
+              target:
+                entity_id:
+                  - switch.living_room_radiator_1_switch
+                  - switch.living_room_radiator_2_switch

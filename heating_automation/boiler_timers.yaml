@@ -1,0 +1,11 @@
+boiler_helpers:
+  input_boolean:
+    boiler_locked:
+      name: Boiler Locked
+      initial: off
+
+  timer:
+    boiler_min_on:
+      duration: '00:05:00'
+    boiler_min_off:
+      duration: '00:05:00'

@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.climate_control",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading_style": "title",
+                  "heading": "Living Room"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.living_room_thermostat",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes",
+                      "hvac_modes": [
+                        "heat",
+                        "off"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "Bedroom",
+                  "heading_style": "title"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.bedroom_thermostat",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes",
+                      "hvac_modes": [
+                        "heat",
+                        "off"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "Child Room",
+                  "heading_style": "title"
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.child_room_thermostat",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes",
+                      "hvac_modes": [
+                        "heat",
+                        "off"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "Equipment Status",
+                  "heading_style": "title"
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "switch.boiler_control_switch"
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sensor.bedroom_radiator_hvac_action",
+                    "sensor.child_radiator_hvac_action",
+                    "sensor.living_room_radiator_1_hvac_action",
+                    "sensor.living_room_radiator_2_hvac_action"
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "binary_sensor.heating_demand"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

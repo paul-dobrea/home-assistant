@@ -1,0 +1,18 @@
+heating_demand:
+  template:
+    - binary_sensor:
+        - name: "Heating Demand"
+          unique_id: heating_demand
+          state: >
+            {{ 'heating' in [
+              state_attr('climate.bedroom_radiator_thermostat', 'hvac_action'),
+              state_attr('climate.child_radiator_thermostat', 'hvac_action'),
+              state_attr('climate.living_room_radiator_1_thermostat', 'hvac_action'),
+              state_attr('climate.living_room_radiator_2_thermostat', 'hvac_action')
+            ] }}
+          icon: >
+            {% if is_state('binary_sensor.heating_demand', 'on') %}
+            mdi:fire
+            {% else %}
+            mdi:fire-off
+            {% endif %}

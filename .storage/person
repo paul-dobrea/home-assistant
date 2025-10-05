@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "paul",
+        "name": "paul",
+        "user_id": "704c275e343641859a019f45b50994b9",
+        "device_trackers": [
+          "device_tracker.ps_iphone",
+          "device_tracker.ps_iphone_remote"
+        ]
+      }
+    ]
+  }
+}

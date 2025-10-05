@@ -1,0 +1,27 @@
+heating_schedule:
+  automation:
+    # Day schedule: morning 07:00 → raise heating if below day temp
+    - alias: Day Heating Schedule
+      trigger:
+        - platform: time
+          at: '07:00:00'
+      action:
+        - service: switch.turn_on
+          target:
+            entity_id:
+              - switch.bedroom_radiator_switch
+              - switch.child_room_radiator_switch
+              - switch.living_room_radiators
+
+    # Night schedule: 22:00 → let heating continue, just lower temp
+    - alias: Night Heating Schedule
+      trigger:
+        - platform: time
+          at: '22:00:00'
+      action:
+        - service: switch.turn_on
+          target:
+            entity_id:
+              - switch.bedroom_radiator_switch
+              - switch.child_room_radiator_switch
+              - switch.living_room_radiators
